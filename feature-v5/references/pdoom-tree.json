@@ -1,0 +1,1351 @@
+{
+  "sha": "bdbad537a7b7af3213475651774030c47568c181",
+  "url": "https://api.github.com/repos/mexicat/pdoom-video/git/trees/bdbad537a7b7af3213475651774030c47568c181",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1f7af3e593f5521501268359f285363356628f1",
+      "size": 231,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/d1f7af3e593f5521501268359f285363356628f1"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ecc957d3fdff1a77e9c4b30ac61ef4a07ccfcdff",
+      "size": 1074,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/ecc957d3fdff1a77e9c4b30ac61ef4a07ccfcdff"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "945a7e85559ee98ea7b4713b6b3fb6f709325c09",
+      "size": 7330,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/945a7e85559ee98ea7b4713b6b3fb6f709325c09"
+    },
+    {
+      "path": "analysis",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "97611eb253965038314f195ee750ba3e40ec7844",
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/trees/97611eb253965038314f195ee750ba3e40ec7844"
+    },
+    {
+      "path": "analysis/align.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2e7a075c9822d27ba1063bb209d4f3ecf648e0a",
+      "size": 19625,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/e2e7a075c9822d27ba1063bb209d4f3ecf648e0a"
+    },
+    {
+      "path": "analysis/analyze.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cafd51735b02da754445eb642f654de657ce92cb",
+      "size": 19530,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/cafd51735b02da754445eb642f654de657ce92cb"
+    },
+    {
+      "path": "analysis/common.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d6f1c8a864aca964a4ec09de73a4535015ad147",
+      "size": 3439,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/9d6f1c8a864aca964a4ec09de73a4535015ad147"
+    },
+    {
+      "path": "analysis/ctc_emissions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7eb99e7c5b3eb624b32ff8d50e8840ad538a40f1",
+      "size": 2201,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/7eb99e7c5b3eb624b32ff8d50e8840ad538a40f1"
+    },
+    {
+      "path": "analysis/ctcalign.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c15c6cd5d7b2076e2b0c1235f4c8b59c5a0f9193",
+      "size": 6612,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/c15c6cd5d7b2076e2b0c1235f4c8b59c5a0f9193"
+    },
+    {
+      "path": "analysis/make_fonts.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ced31056c67282226c19cf8df7aeecaef598429",
+      "size": 1023,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/7ced31056c67282226c19cf8df7aeecaef598429"
+    },
+    {
+      "path": "analysis/pron.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c0364fa251ae1bce3ae804b2020ef365d502f4c",
+      "size": 1469,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/7c0364fa251ae1bce3ae804b2020ef365d502f4c"
+    },
+    {
+      "path": "analysis/pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4da0721e123bf5c4764494c31b0791be01c70769",
+      "size": 407,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/4da0721e123bf5c4764494c31b0791be01c70769"
+    },
+    {
+      "path": "analysis/qa_plot.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5c5595718b20d23cc91968d3c370136c2993b33",
+      "size": 3762,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/b5c5595718b20d23cc91968d3c370136c2993b33"
+    },
+    {
+      "path": "analysis/uv.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b27053c8b320a1c6475b8c3affbee741acaecf01",
+      "size": 523093,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/b27053c8b320a1c6475b8c3affbee741acaecf01"
+    },
+    {
+      "path": "analysis/vocal_feats.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eecc151a6afd420649b25154156d53c3d557386c",
+      "size": 1798,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/eecc151a6afd420649b25154156d53c3d557386c"
+    },
+    {
+      "path": "analysis/whisper_run.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f55583e3989d54a5e25c129243dbfbca14ad9632",
+      "size": 1356,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/f55583e3989d54a5e25c129243dbfbca14ad9632"
+    },
+    {
+      "path": "analysis/zoom.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "741f5945001155baa0ed0d24eddfddaa2f8f57ee",
+      "size": 4301,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/741f5945001155baa0ed0d24eddfddaa2f8f57ee"
+    },
+    {
+      "path": "app",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "19b0182b69d6984e1367b306b65cdbb497307200",
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/trees/19b0182b69d6984e1367b306b65cdbb497307200"
+    },
+    {
+      "path": "app/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a14702c409d3f34f9ab001e572dfeaf0da434bba",
+      "size": 388,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/a14702c409d3f34f9ab001e572dfeaf0da434bba"
+    },
+    {
+      "path": "app/bun.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "936781d653cedba6fa684dbd4cc0f4ddcb5e7538",
+      "size": 19020,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/936781d653cedba6fa684dbd4cc0f4ddcb5e7538"
+    },
+    {
+      "path": "app/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97716f2dfdb948b45f4eba3eda973c3889ebe6ab",
+      "size": 1907,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/97716f2dfdb948b45f4eba3eda973c3889ebe6ab"
+    },
+    {
+      "path": "app/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab40fab7edfc6d7772ffd956933797e48bfeee07",
+      "size": 397,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/ab40fab7edfc6d7772ffd956933797e48bfeee07"
+    },
+    {
+      "path": "app/plates.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6469dcfb892a50c25830418d2114492ac998bd25",
+      "size": 227,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/6469dcfb892a50c25830418d2114492ac998bd25"
+    },
+    {
+      "path": "app/public",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cdd85cc0307b7377e8a04581a23463bc6d6a8a45",
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/trees/cdd85cc0307b7377e8a04581a23463bc6d6a8a45"
+    },
+    {
+      "path": "app/public/fonts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "09f803326335c8aca381eb16c21832e1731f4d59",
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/trees/09f803326335c8aca381eb16c21832e1731f4d59"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w1000-300.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0bb90312d4ff0998f396f9498c2e80f5f4e7166e",
+      "size": 121492,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/0bb90312d4ff0998f396f9498c2e80f5f4e7166e"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w1000-500.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4441d242aee4e7df8aca736ed34d78321864be05",
+      "size": 121588,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/4441d242aee4e7df8aca736ed34d78321864be05"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w1000-700.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ba0d43287924bcf828384dc6b1087daf4fcdcc9",
+      "size": 121440,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/3ba0d43287924bcf828384dc6b1087daf4fcdcc9"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w1000-900.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56633ec809a80fec5871ea913748e910e197f48e",
+      "size": 120740,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/56633ec809a80fec5871ea913748e910e197f48e"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w1125-300.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d056a26bbcbc95a70b12245d9e15e4d364bbc8fc",
+      "size": 121740,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/d056a26bbcbc95a70b12245d9e15e4d364bbc8fc"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w1125-500.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a478e5fe2834ca92f9fb1481e7f5f34839f03759",
+      "size": 121788,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/a478e5fe2834ca92f9fb1481e7f5f34839f03759"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w1125-700.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56517a50508614bf67d9b3e364ea2e2f1ee6ac56",
+      "size": 121716,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/56517a50508614bf67d9b3e364ea2e2f1ee6ac56"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w1125-900.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec08b5a643aad26a87ea04fbacbd638c86031e9f",
+      "size": 121268,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/ec08b5a643aad26a87ea04fbacbd638c86031e9f"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w1250-300.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ff564393ac5c5ef907dc0470b8c69505c174863",
+      "size": 121648,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/3ff564393ac5c5ef907dc0470b8c69505c174863"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w1250-500.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d747f0a85560d5ac8fde2900b852b0bfec49ed68",
+      "size": 121652,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/d747f0a85560d5ac8fde2900b852b0bfec49ed68"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w1250-700.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24495e28588db9f0e53a2d8b28ad1b2e101e5487",
+      "size": 121628,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/24495e28588db9f0e53a2d8b28ad1b2e101e5487"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w1250-900.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ed03d0b1e623436abef2274c440818d4ba7d9b4",
+      "size": 121220,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/7ed03d0b1e623436abef2274c440818d4ba7d9b4"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w620-300.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00810f077436ebde540777346c3a06bc836f81c8",
+      "size": 120484,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/00810f077436ebde540777346c3a06bc836f81c8"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w620-500.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3bb7df2fb58766670385ade50073508ea989c658",
+      "size": 120416,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/3bb7df2fb58766670385ade50073508ea989c658"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w620-700.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "644309233fbfa5898cae3714c89267aa18da2bdf",
+      "size": 120376,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/644309233fbfa5898cae3714c89267aa18da2bdf"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w620-900.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b65c6ddf320514b7d25e420292e35d2d332102c",
+      "size": 120080,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/1b65c6ddf320514b7d25e420292e35d2d332102c"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w750-300.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7488a74e8b6d9688af81cb36bfd5de30efcfa759",
+      "size": 120988,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/7488a74e8b6d9688af81cb36bfd5de30efcfa759"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w750-500.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cadb57013ef493376f44c46013e4d6b042247161",
+      "size": 120968,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/cadb57013ef493376f44c46013e4d6b042247161"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w750-700.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a12c2af0f96c5c6ab25ca827273853882cbe864",
+      "size": 120888,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/1a12c2af0f96c5c6ab25ca827273853882cbe864"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w750-900.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4143c933a077e90919bdedfb204cc71e6511906d",
+      "size": 120588,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/4143c933a077e90919bdedfb204cc71e6511906d"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w875-300.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce66a27a1ced82923d8db94c1047a577216cf197",
+      "size": 121144,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/ce66a27a1ced82923d8db94c1047a577216cf197"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w875-500.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9a7b24c1cd0d066779c643a6b79c4e8fab1e099",
+      "size": 121328,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/a9a7b24c1cd0d066779c643a6b79c4e8fab1e099"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w875-700.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2aef2d29ef7f3c440adca525cabd528c3359a877",
+      "size": 121212,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/2aef2d29ef7f3c440adca525cabd528c3359a877"
+    },
+    {
+      "path": "app/public/fonts/Archivo-w875-900.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbcdc3b359b069a83130b6334d0578860ad5e08d",
+      "size": 120844,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/fbcdc3b359b069a83130b6334d0578860ad5e08d"
+    },
+    {
+      "path": "app/public/fonts/ArchivoItalic-w1000-400.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8133aa3df2129d329081536e8441e99401cc9efb",
+      "size": 133740,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/8133aa3df2129d329081536e8441e99401cc9efb"
+    },
+    {
+      "path": "app/public/fonts/ArchivoItalic-w1000-800.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a0bd1bef7a535bc2705be3b84f58698ac076412",
+      "size": 133828,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/4a0bd1bef7a535bc2705be3b84f58698ac076412"
+    },
+    {
+      "path": "app/public/fonts/ArchivoItalic-w750-400.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7947f58d829cfde8ed3d2ebcff33a44c1814d424",
+      "size": 133472,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/7947f58d829cfde8ed3d2ebcff33a44c1814d424"
+    },
+    {
+      "path": "app/public/fonts/ArchivoItalic-w750-800.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8919d6964bcd41ef8fa3fe6666bce20cdef08a82",
+      "size": 133296,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/8919d6964bcd41ef8fa3fe6666bce20cdef08a82"
+    },
+    {
+      "path": "app/public/fonts/Cormorant-400.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "440b356974e41cf8bd697a983ff18431ba3b4d6b",
+      "size": 774016,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/440b356974e41cf8bd697a983ff18431ba3b4d6b"
+    },
+    {
+      "path": "app/public/fonts/Cormorant-600.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a00cc09a90d8a4facb96a39f47f9e6599071125c",
+      "size": 774032,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/a00cc09a90d8a4facb96a39f47f9e6599071125c"
+    },
+    {
+      "path": "app/public/fonts/CormorantItalic-400.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "293177bb6948bf80a0a06eb44d799fa4f051b916",
+      "size": 454392,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/293177bb6948bf80a0a06eb44d799fa4f051b916"
+    },
+    {
+      "path": "app/public/fonts/CormorantItalic-600.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1cd3c5ee2669655bb0387ae49dc1de261b457016",
+      "size": 454472,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/1cd3c5ee2669655bb0387ae49dc1de261b457016"
+    },
+    {
+      "path": "app/public/fonts/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7f2f83ab2285c1fdffd0a5b6713f355a1949b5cb",
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/trees/7f2f83ab2285c1fdffd0a5b6713f355a1949b5cb"
+    },
+    {
+      "path": "app/public/fonts/src/Archivo-Italic[wdth,wght].ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41577c6b91d4c12d6490a6957f7c68f3c226c625",
+      "size": 741368,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/41577c6b91d4c12d6490a6957f7c68f3c226c625"
+    },
+    {
+      "path": "app/public/fonts/src/Archivo[wdth,wght].ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc64253d36665a5ca0d6719cdf1e32b3de453b51",
+      "size": 658596,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/cc64253d36665a5ca0d6719cdf1e32b3de453b51"
+    },
+    {
+      "path": "app/public/fonts/src/CormorantGaramond-Italic[wght].ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d914e7663b7a1429d06ec60a5c5bb026031a2ef",
+      "size": 715644,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/0d914e7663b7a1429d06ec60a5c5bb026031a2ef"
+    },
+    {
+      "path": "app/public/fonts/src/CormorantGaramond[wght].ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d992a83ce525c330fad3a19087746bcb2dc038ee",
+      "size": 1195560,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/d992a83ce525c330fad3a19087746bcb2dc038ee"
+    },
+    {
+      "path": "app/public/fonts/src/IBMPlexMono-Bold.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17b406d221e7f27179344707bd543fb8470728ac",
+      "size": 137784,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/17b406d221e7f27179344707bd543fb8470728ac"
+    },
+    {
+      "path": "app/public/fonts/src/IBMPlexMono-Italic.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7f69134614ebdcaa10ebd36b0be1a44a035e157",
+      "size": 143920,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/d7f69134614ebdcaa10ebd36b0be1a44a035e157"
+    },
+    {
+      "path": "app/public/fonts/src/IBMPlexMono-Light.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61d43577842179cdffeb38b6c1928786981db0da",
+      "size": 135216,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/61d43577842179cdffeb38b6c1928786981db0da"
+    },
+    {
+      "path": "app/public/fonts/src/IBMPlexMono-Medium.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33c546f68b6007a45a3f10e845523abb2db25399",
+      "size": 136704,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/33c546f68b6007a45a3f10e845523abb2db25399"
+    },
+    {
+      "path": "app/public/fonts/src/IBMPlexMono-Regular.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c9770d5183ba60dc4350d3e011b782a320761ae",
+      "size": 135580,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/0c9770d5183ba60dc4350d3e011b782a320761ae"
+    },
+    {
+      "path": "app/public/fonts/src/IBMPlexMono-SemiBold.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f8998a139d8f61d3b96bdd3b512fca501a1f6b9",
+      "size": 140216,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/8f8998a139d8f61d3b96bdd3b512fca501a1f6b9"
+    },
+    {
+      "path": "app/public/fonts/src/OFL.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8597481ebc941863ab228e79ea4305507cd73cc6",
+      "size": 4388,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/8597481ebc941863ab228e79ea4305507cd73cc6"
+    },
+    {
+      "path": "app/public/fonts/stroke",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e4c6c45906c534d1eed5c022532ed85bded7aad2",
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/trees/e4c6c45906c534d1eed5c022532ed85bded7aad2"
+    },
+    {
+      "path": "app/public/fonts/stroke/EMSAllure.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fb7bef668f675353e3bee6e23c87d8faf0c1fae",
+      "size": 57469,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/1fb7bef668f675353e3bee6e23c87d8faf0c1fae"
+    },
+    {
+      "path": "app/public/fonts/stroke/EMSFelix.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99950b80b30bffafb29ec0c1c3e37bf15bdd8d19",
+      "size": 48819,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/99950b80b30bffafb29ec0c1c3e37bf15bdd8d19"
+    },
+    {
+      "path": "app/public/fonts/stroke/EMSOsmotron.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "821a0e324645d45c0df170ef136f81fc02ecb412",
+      "size": 30158,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/821a0e324645d45c0df170ef136f81fc02ecb412"
+    },
+    {
+      "path": "app/public/fonts/stroke/EMSReadability.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9c5174edbf3c22ed4611da912ab5984eb6a957e",
+      "size": 41926,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/c9c5174edbf3c22ed4611da912ab5984eb6a957e"
+    },
+    {
+      "path": "app/public/fonts/stroke/EMSTech.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ab5d67c18867458b91cb048a99cf9b7d8f4b311",
+      "size": 40777,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/8ab5d67c18867458b91cb048a99cf9b7d8f4b311"
+    },
+    {
+      "path": "app/public/fonts/stroke/HersheySans1.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a49d184d524872505ca5df27bfd5534ad2042e41",
+      "size": 40196,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/a49d184d524872505ca5df27bfd5534ad2042e41"
+    },
+    {
+      "path": "app/public/fonts/stroke/HersheyScript1.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe470218d8ae468e13729729a0a44e80b854683c",
+      "size": 60060,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/fe470218d8ae468e13729729a0a44e80b854683c"
+    },
+    {
+      "path": "app/public/fonts/stroke/HersheySerifMed.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02da42feab93e0a72d3376a8085b224219d531a7",
+      "size": 60544,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/02da42feab93e0a72d3376a8085b224219d531a7"
+    },
+    {
+      "path": "app/public/plates",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f87b9e5360996d55cf2e21ea9c12d07e889183d3",
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/trees/f87b9e5360996d55cf2e21ea9c12d07e889183d3"
+    },
+    {
+      "path": "app/public/plates/fig01.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "426a708508a0cb55d09389035de78f6d1bfa8b34",
+      "size": 391085,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/426a708508a0cb55d09389035de78f6d1bfa8b34"
+    },
+    {
+      "path": "app/public/plates/fig02.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "080cd53bb3d1a729b00182d32bf3e3b9a145b7d2",
+      "size": 663931,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/080cd53bb3d1a729b00182d32bf3e3b9a145b7d2"
+    },
+    {
+      "path": "app/public/plates/fig03.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ba1020cd2e6f961f640fb8de0daecfc58f3ee3c",
+      "size": 539407,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/7ba1020cd2e6f961f640fb8de0daecfc58f3ee3c"
+    },
+    {
+      "path": "app/public/plates/fig04.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3944af8061fef550c245678b46f19e90ef58dea",
+      "size": 467899,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/e3944af8061fef550c245678b46f19e90ef58dea"
+    },
+    {
+      "path": "app/public/plates/fig05.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2771929da3148abfdee4325bc1156023deaaefb1",
+      "size": 473705,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/2771929da3148abfdee4325bc1156023deaaefb1"
+    },
+    {
+      "path": "app/public/plates/fig06.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9c6387d0bd18f027c41e430db52d132856e7631",
+      "size": 475675,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/c9c6387d0bd18f027c41e430db52d132856e7631"
+    },
+    {
+      "path": "app/public/plates/fig07.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be7b58e12938ff25b8106aff7bf1ab5b6c6e01f5",
+      "size": 315443,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/be7b58e12938ff25b8106aff7bf1ab5b6c6e01f5"
+    },
+    {
+      "path": "app/public/plates/fig08.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f52805f5e17e3efc4136a2abc30e739df50b1c3e",
+      "size": 475323,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/f52805f5e17e3efc4136a2abc30e739df50b1c3e"
+    },
+    {
+      "path": "app/public/plates/fig09.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e3eb58c30c34f6b16c66c40af580f13f0f02f95",
+      "size": 469984,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/5e3eb58c30c34f6b16c66c40af580f13f0f02f95"
+    },
+    {
+      "path": "app/public/plates/fig10.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7371bdf2ae7a9661da6ca1141c90534ee2a7a36",
+      "size": 278900,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/d7371bdf2ae7a9661da6ca1141c90534ee2a7a36"
+    },
+    {
+      "path": "app/public/plates/fig11.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70b84ee88f83ad29b5aa9227b75b651eda53c0ea",
+      "size": 351750,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/70b84ee88f83ad29b5aa9227b75b651eda53c0ea"
+    },
+    {
+      "path": "app/public/plates/fig12.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5cb2abfec2058127c6e962b44c05d6f8650f3c6a",
+      "size": 295187,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/5cb2abfec2058127c6e962b44c05d6f8650f3c6a"
+    },
+    {
+      "path": "app/public/plates/fig13.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3a284a1cfb27ab2a70e997c6a3bd8ba8ae9ea5e",
+      "size": 335525,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/e3a284a1cfb27ab2a70e997c6a3bd8ba8ae9ea5e"
+    },
+    {
+      "path": "app/public/plates/fig14.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbc54cbb82d3a61c56055be404cfeec403d6bc0e",
+      "size": 388589,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/cbc54cbb82d3a61c56055be404cfeec403d6bc0e"
+    },
+    {
+      "path": "app/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "470e82cc00e8ebfe7c6c4d61960ecff433fa8f69",
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/trees/470e82cc00e8ebfe7c6c4d61960ecff433fa8f69"
+    },
+    {
+      "path": "app/scripts/render.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c2b32db53dabdc58342441dbdb5e955d82b056b",
+      "size": 13401,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/0c2b32db53dabdc58342441dbdb5e955d82b056b"
+    },
+    {
+      "path": "app/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "424b06aa6b4601910d6eeb261d5b3b9147641b5f",
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/trees/424b06aa6b4601910d6eeb261d5b3b9147641b5f"
+    },
+    {
+      "path": "app/src/engine",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0917d8a18c345c1bbeed206917fd44f4d42b31ba",
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/trees/0917d8a18c345c1bbeed206917fd44f4d42b31ba"
+    },
+    {
+      "path": "app/src/engine/audio.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc019af8f5f832fd087410ae97b5b115e7b36c4e",
+      "size": 5435,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/bc019af8f5f832fd087410ae97b5b115e7b36c4e"
+    },
+    {
+      "path": "app/src/engine/engine.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "daedf65e81d384de0922f7cee657c27b119b8fc3",
+      "size": 18821,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/daedf65e81d384de0922f7cee657c27b119b8fc3"
+    },
+    {
+      "path": "app/src/engine/gl.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d27d4b6905cb5215908b7d2432c1f902777c73df",
+      "size": 11491,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/d27d4b6905cb5215908b7d2432c1f902777c73df"
+    },
+    {
+      "path": "app/src/engine/glsl",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "925c0f9f0008ed2bfef2f51c52e0623f2f086a73",
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/trees/925c0f9f0008ed2bfef2f51c52e0623f2f086a73"
+    },
+    {
+      "path": "app/src/engine/glsl/common.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "015403aea24e4f706088f9e87ab25e68893e1954",
+      "size": 10852,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/015403aea24e4f706088f9e87ab25e68893e1954"
+    },
+    {
+      "path": "app/src/engine/hud.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a3cc711a9ede34ebaf3335b34b93368e678dd16",
+      "size": 7755,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/5a3cc711a9ede34ebaf3335b34b93368e678dd16"
+    },
+    {
+      "path": "app/src/engine/lines.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e21c97d6d7044752ac87097356b1e4dc2435f6a0",
+      "size": 7778,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/e21c97d6d7044752ac87097356b1e4dc2435f6a0"
+    },
+    {
+      "path": "app/src/engine/lyrics.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d556d93c9ab411f94988ed40db3b7801f7d3ab0",
+      "size": 4150,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/5d556d93c9ab411f94988ed40db3b7801f7d3ab0"
+    },
+    {
+      "path": "app/src/engine/palette.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb7012151a55f0aca7176827bbc4d213a0019ecf",
+      "size": 1290,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/fb7012151a55f0aca7176827bbc4d213a0019ecf"
+    },
+    {
+      "path": "app/src/engine/post.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3f155b086ebed67374515f481760a3884065471",
+      "size": 11047,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/e3f155b086ebed67374515f481760a3884065471"
+    },
+    {
+      "path": "app/src/engine/scale.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce43c887a3aabf86d70d00f492631d428aa7331e",
+      "size": 615,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/ce43c887a3aabf86d70d00f492631d428aa7331e"
+    },
+    {
+      "path": "app/src/engine/scene.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ebd18f066b23fac6b550fd95845b03de09dfc97",
+      "size": 2998,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/8ebd18f066b23fac6b550fd95845b03de09dfc97"
+    },
+    {
+      "path": "app/src/engine/stroke.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08c5c13017f20ba7733240597303d3cba9662d21",
+      "size": 14549,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/08c5c13017f20ba7733240597303d3cba9662d21"
+    },
+    {
+      "path": "app/src/engine/type.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a74cc32764bc0a085d92dfb98b143318631362ef",
+      "size": 9573,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/a74cc32764bc0a085d92dfb98b143318631362ef"
+    },
+    {
+      "path": "app/src/engine/util.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c403d739436989a488c960745bc7fe5e75890bff",
+      "size": 7537,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/c403d739436989a488c960745bc7fe5e75890bff"
+    },
+    {
+      "path": "app/src/main.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "010d21f895ac9889d3ada2246b46e7aa8b745b18",
+      "size": 8554,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/010d21f895ac9889d3ada2246b46e7aa8b745b18"
+    },
+    {
+      "path": "app/src/scenes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0203cbf385cf045273e0f3eb0e73046720b49c5f",
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/trees/0203cbf385cf045273e0f3eb0e73046720b49c5f"
+    },
+    {
+      "path": "app/src/scenes/_motifs.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99d2f22e14bb88787d121ae44f826c42a41b093f",
+      "size": 6254,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/99d2f22e14bb88787d121ae44f826c42a41b093f"
+    },
+    {
+      "path": "app/src/scenes/ascent-eye.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c9c00fda4be1793ac8649efb4a79bf63c875155",
+      "size": 10871,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/3c9c00fda4be1793ac8649efb4a79bf63c875155"
+    },
+    {
+      "path": "app/src/scenes/ascent-note.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67fe58bb5bfb3fa2354587e7b38a2ca881463beb",
+      "size": 9652,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/67fe58bb5bfb3fa2354587e7b38a2ca881463beb"
+    },
+    {
+      "path": "app/src/scenes/ascent-odo.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fdba0fecc7c141db212ec76fecb8f05038c3163",
+      "size": 6063,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/1fdba0fecc7c141db212ec76fecb8f05038c3163"
+    },
+    {
+      "path": "app/src/scenes/ascent.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8391ad19611712e107320f8c950a52de13df7dc2",
+      "size": 39706,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/8391ad19611712e107320f8c950a52de13df7dc2"
+    },
+    {
+      "path": "app/src/scenes/bureau.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab61399d5f64949f7c16f7fb7c289f6ecce58ccd",
+      "size": 51646,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/ab61399d5f64949f7c16f7fb7c289f6ecce58ccd"
+    },
+    {
+      "path": "app/src/scenes/dense-askew.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed3f851049a01c65a01e74d63883107ad8a3a45e",
+      "size": 30003,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/ed3f851049a01c65a01e74d63883107ad8a3a45e"
+    },
+    {
+      "path": "app/src/scenes/dense-gpu.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5867c0d322c5b2a6556c21b47041e2bde9ed6f1c",
+      "size": 7481,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/5867c0d322c5b2a6556c21b47041e2bde9ed6f1c"
+    },
+    {
+      "path": "app/src/scenes/dense-press.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b199e5c341e636996bafae90cafc29dfc5f1abd9",
+      "size": 33362,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/b199e5c341e636996bafae90cafc29dfc5f1abd9"
+    },
+    {
+      "path": "app/src/scenes/dense.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53ed129422f85c7a80463f75f4a07fbdc317e3de",
+      "size": 7328,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/53ed129422f85c7a80463f75f4a07fbdc317e3de"
+    },
+    {
+      "path": "app/src/scenes/fuse-pitch.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54565b1f488a3300c107005d9724908fdbbd2745",
+      "size": 2666,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/54565b1f488a3300c107005d9724908fdbbd2745"
+    },
+    {
+      "path": "app/src/scenes/fuse.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee43ddd1c7a53740c7e2b5d5180e0d132dbe5e37",
+      "size": 56176,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/ee43ddd1c7a53740c7e2b5d5180e0d132dbe5e37"
+    },
+    {
+      "path": "app/src/scenes/hook.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fce2b4a9fce6310267752fd19c00445986d5d133",
+      "size": 38379,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/fce2b4a9fce6310267752fd19c00445986d5d133"
+    },
+    {
+      "path": "app/src/scenes/ilya-glsl.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "363d99371b9a539c1bfac74ad0fda16af3f0422b",
+      "size": 21798,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/363d99371b9a539c1bfac74ad0fda16af3f0422b"
+    },
+    {
+      "path": "app/src/scenes/ilya-room.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e18e2181535fc9ee9d05d6ab9dea6235b0988b47",
+      "size": 22459,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/e18e2181535fc9ee9d05d6ab9dea6235b0988b47"
+    },
+    {
+      "path": "app/src/scenes/ilya.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8c5d0a2d5f6acfda2519d792a81c47f37f0eb60",
+      "size": 9187,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/d8c5d0a2d5f6acfda2519d792a81c47f37f0eb60"
+    },
+    {
+      "path": "app/src/scenes/leftturn-gantt.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5eddaa32a4472f4da9bf6af5de3f1feb250ea6ad",
+      "size": 15599,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/5eddaa32a4472f4da9bf6af5de3f1feb250ea6ad"
+    },
+    {
+      "path": "app/src/scenes/leftturn-map.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4bb22902c1ac4d6fdddd095080b535b2b7d11d25",
+      "size": 24608,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/4bb22902c1ac4d6fdddd095080b535b2b7d11d25"
+    },
+    {
+      "path": "app/src/scenes/leftturn.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f1e89443cc92ff9bb8633bf7dcb257e0c4bf53e",
+      "size": 23550,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/1f1e89443cc92ff9bb8633bf7dcb257e0c4bf53e"
+    },
+    {
+      "path": "app/src/scenes/loom-glsl.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81c2c683a4a84bc0d160c64a6b3334d83f8abff6",
+      "size": 3689,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/81c2c683a4a84bc0d160c64a6b3334d83f8abff6"
+    },
+    {
+      "path": "app/src/scenes/loom-tree.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8872021e93b6a2b9e9a770353d6565322fa63de8",
+      "size": 14450,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/8872021e93b6a2b9e9a770353d6565322fa63de8"
+    },
+    {
+      "path": "app/src/scenes/loom.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6cf966159038a43cdf9ab0b1895d89807f5225f",
+      "size": 22340,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/c6cf966159038a43cdf9ab0b1895d89807f5225f"
+    },
+    {
+      "path": "app/src/scenes/loss.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0a2bad57dd4ace854b2ca980cd6b90459180a6b",
+      "size": 48392,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/c0a2bad57dd4ace854b2ca980cd6b90459180a6b"
+    },
+    {
+      "path": "app/src/scenes/open-geo.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3642dc2bf35d650428299b3723ff86171250ebba",
+      "size": 13047,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/3642dc2bf35d650428299b3723ff86171250ebba"
+    },
+    {
+      "path": "app/src/scenes/open.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec0e89a853084ed8d52d978494d1ee2894066775",
+      "size": 65398,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/ec0e89a853084ed8d52d978494d1ee2894066775"
+    },
+    {
+      "path": "app/src/scenes/outro.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "692a985bda2a5e31186e1de8084395511ac28221",
+      "size": 45393,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/692a985bda2a5e31186e1de8084395511ac28221"
+    },
+    {
+      "path": "app/src/scenes/paperclips-geo.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d70fbfcee3d3c2a48f4b689071b6e4456a861a0",
+      "size": 6251,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/2d70fbfcee3d3c2a48f4b689071b6e4456a861a0"
+    },
+    {
+      "path": "app/src/scenes/paperclips-glsl.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f9e6efc2242bc9d814abba19939e38c84c4e3f6",
+      "size": 12719,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/0f9e6efc2242bc9d814abba19939e38c84c4e3f6"
+    },
+    {
+      "path": "app/src/scenes/paperclips.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24acbcba388265d7320ff5c1c98ddacf45c7f1e8",
+      "size": 20491,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/24acbcba388265d7320ff5c1c98ddacf45c7f1e8"
+    },
+    {
+      "path": "app/src/scenes/prompt-data.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca4725db8edbf8a03a84154effc93317262cbbef",
+      "size": 3357,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/ca4725db8edbf8a03a84154effc93317262cbbef"
+    },
+    {
+      "path": "app/src/scenes/prompt.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "054c11d190cfbd64b2052c0e4542ec1bc6df5d14",
+      "size": 37436,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/054c11d190cfbd64b2052c0e4542ec1bc6df5d14"
+    },
+    {
+      "path": "app/src/scenes/room-geo.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "583a1f4e6a982282ebbb3902dbfcd5ad292d035d",
+      "size": 12335,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/583a1f4e6a982282ebbb3902dbfcd5ad292d035d"
+    },
+    {
+      "path": "app/src/scenes/room-shrooms.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0792b8944d4f94658c0b54fd6919a206c59d9e9",
+      "size": 2099,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/a0792b8944d4f94658c0b54fd6919a206c59d9e9"
+    },
+    {
+      "path": "app/src/scenes/room.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8b9025db08eb48e25109a74e9bb8579d7e4a6b4",
+      "size": 75167,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/c8b9025db08eb48e25109a74e9bb8579d7e4a6b4"
+    },
+    {
+      "path": "app/src/scenes/shoggoth-glsl.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8df59b88ccea2f9871f74f2b18de1c8bd01f5e6",
+      "size": 20603,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/b8df59b88ccea2f9871f74f2b18de1c8bd01f5e6"
+    },
+    {
+      "path": "app/src/scenes/shoggoth.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a8ee5ee649689dddb6e924bb04f4bcd8b632a98",
+      "size": 43700,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/5a8ee5ee649689dddb6e924bb04f4bcd8b632a98"
+    },
+    {
+      "path": "app/src/scenes/spacetime-lens.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6546c5b89e2e1428381a0a42cdf784417880e455",
+      "size": 10274,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/6546c5b89e2e1428381a0a42cdf784417880e455"
+    },
+    {
+      "path": "app/src/scenes/spacetime.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "480b7c18b96f8c8375355831521a81227b50546e",
+      "size": 47201,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/480b7c18b96f8c8375355831521a81227b50546e"
+    },
+    {
+      "path": "app/src/scenes/stack-kit.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "798bae8b5175d2f252e334a4acf47625c760c925",
+      "size": 9401,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/798bae8b5175d2f252e334a4acf47625c760c925"
+    },
+    {
+      "path": "app/src/scenes/stack.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09e2dc78d16c3e43a93606c237cb4a6c4dc94d52",
+      "size": 36610,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/09e2dc78d16c3e43a93606c237cb4a6c4dc94d52"
+    },
+    {
+      "path": "app/src/timeline.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3464c25ddd33a93904af12a76e9035f5bd9b569a",
+      "size": 3875,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/3464c25ddd33a93904af12a76e9035f5bd9b569a"
+    },
+    {
+      "path": "app/tsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29b7c220523863bbdcb381433344555ccfb3d91d",
+      "size": 456,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/29b7c220523863bbdcb381433344555ccfb3d91d"
+    },
+    {
+      "path": "app/tsconfig.scripts.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a09e480b8e7c2e4cf27b717a31f9cad271ac2f86",
+      "size": 104,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/a09e480b8e7c2e4cf27b717a31f9cad271ac2f86"
+    },
+    {
+      "path": "app/vite.config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03750267a34ac5cd3ecfb8c560eadad814215187",
+      "size": 1352,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/03750267a34ac5cd3ecfb8c560eadad814215187"
+    },
+    {
+      "path": "audio",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9bf2a81426e220455fc80d607dac9c03dcf9fca6",
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/trees/9bf2a81426e220455fc80d607dac9c03dcf9fca6"
+    },
+    {
+      "path": "audio/pdoom.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ef01c1a2b8fab9f871cac6f17e0ebe527109cb0",
+      "size": 3437188,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/3ef01c1a2b8fab9f871cac6f17e0ebe527109cb0"
+    },
+    {
+      "path": "data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9bbc3c3d348391645863dc1604ab7c639ba39391",
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/trees/9bbc3c3d348391645863dc1604ab7c639ba39391"
+    },
+    {
+      "path": "data/audio.approx.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4330eb6ee6282a2f47be7d4a32a4c7498d679f93",
+      "size": 4628,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/4330eb6ee6282a2f47be7d4a32a4c7498d679f93"
+    },
+    {
+      "path": "data/audio.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32ce16f147eb63685fe823aa1e3c171bbd0054b1",
+      "size": 755529,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/32ce16f147eb63685fe823aa1e3c171bbd0054b1"
+    },
+    {
+      "path": "data/lyrics.approx.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93e577c624a57ea2d1b0ddbe96657b01efc925ea",
+      "size": 25332,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/93e577c624a57ea2d1b0ddbe96657b01efc925ea"
+    },
+    {
+      "path": "data/lyrics.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34721511cb45dc41b77c18cd8fcbbbb37d6386c2",
+      "size": 31277,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/34721511cb45dc41b77c18cd8fcbbbb37d6386c2"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fa6b77748ed90c3e77a505be7470c5b3b593cb8d",
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/trees/fa6b77748ed90c3e77a505be7470c5b3b593cb8d"
+    },
+    {
+      "path": "docs/ENGINE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6240a73653ca00f58093b9c6c3e5986ea141218b",
+      "size": 14939,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/6240a73653ca00f58093b9c6c3e5986ea141218b"
+    },
+    {
+      "path": "docs/TREATMENT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ff0e2b55bb61458b4a11d3575c7aa2283b2d9ea",
+      "size": 24413,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/5ff0e2b55bb61458b4a11d3575c7aa2283b2d9ea"
+    },
+    {
+      "path": "lyrics",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bbae8c0319b921110b37053b981690141710c19c",
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/trees/bbae8c0319b921110b37053b981690141710c19c"
+    },
+    {
+      "path": "lyrics/lyrics.src.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec42a338ec3de96a4c9ccaffba5b9beb7d7942e5",
+      "size": 2160,
+      "url": "https://api.github.com/repos/mexicat/pdoom-video/git/blobs/ec42a338ec3de96a4c9ccaffba5b9beb7d7942e5"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,100 @@
+[
+  {
+    "repo": "AnctyEnly453/abstract-algebra-promo",
+    "commit": "5d01a758af8b4b3b7bb5a2a5b7f0efb4cf1667eb",
+    "path": "promo.html",
+    "url": "https://raw.githubusercontent.com/AnctyEnly453/abstract-algebra-promo/5d01a758af8b4b3b7bb5a2a5b7f0efb4cf1667eb/promo.html",
+    "sha256": "d40ebd60e68bee401ac40cb6bf2471cf9bd5dbc6ec958019c5ba7dc3731fda9a"
+  },
+  {
+    "repo": "AnctyEnly453/abstract-algebra-promo",
+    "commit": "5d01a758af8b4b3b7bb5a2a5b7f0efb4cf1667eb",
+    "path": "music.py",
+    "url": "https://raw.githubusercontent.com/AnctyEnly453/abstract-algebra-promo/5d01a758af8b4b3b7bb5a2a5b7f0efb4cf1667eb/music.py",
+    "sha256": "89062cccfb6b28e6cb3ed1e1331b72aa2ae2cf0d94a8a766b8c9e0cada2ac8f5"
+  },
+  {
+    "repo": "AnctyEnly453/abstract-algebra-promo",
+    "commit": "5d01a758af8b4b3b7bb5a2a5b7f0efb4cf1667eb",
+    "path": "e8.py",
+    "url": "https://raw.githubusercontent.com/AnctyEnly453/abstract-algebra-promo/5d01a758af8b4b3b7bb5a2a5b7f0efb4cf1667eb/e8.py",
+    "sha256": "e2755f0e3b0fa2c3a9f4ac56a645b4025d8ad09121712e236e0caa8a62d32526"
+  },
+  {
+    "repo": "mexicat/pdoom-video",
+    "commit": "bdbad537a7b7af3213475651774030c47568c181",
+    "path": "docs/TREATMENT.md",
+    "url": "https://raw.githubusercontent.com/mexicat/pdoom-video/bdbad537a7b7af3213475651774030c47568c181/docs/TREATMENT.md",
+    "sha256": "d8f66e45ab9ce48293fe26dcd3753a092e337e0d2192da94e0628f2a6068507e"
+  },
+  {
+    "repo": "mexicat/pdoom-video",
+    "commit": "bdbad537a7b7af3213475651774030c47568c181",
+    "path": "docs/ENGINE.md",
+    "url": "https://raw.githubusercontent.com/mexicat/pdoom-video/bdbad537a7b7af3213475651774030c47568c181/docs/ENGINE.md",
+    "sha256": "c2921e0b452233e9eaccd78680d967f3709789caa8ad862e74eeb44ad7cab987"
+  },
+  {
+    "repo": "mexicat/pdoom-video",
+    "commit": "bdbad537a7b7af3213475651774030c47568c181",
+    "path": "app/src/scenes/dense-press.ts",
+    "url": "https://raw.githubusercontent.com/mexicat/pdoom-video/bdbad537a7b7af3213475651774030c47568c181/app/src/scenes/dense-press.ts",
+    "sha256": "73fff6d6ebc858f8dba04bc030ace8595bef82904b9f746523313ea3d6f0098f"
+  },
+  {
+    "repo": "mexicat/pdoom-video",
+    "commit": "bdbad537a7b7af3213475651774030c47568c181",
+    "path": "app/src/scenes/loom.ts",
+    "url": "https://raw.githubusercontent.com/mexicat/pdoom-video/bdbad537a7b7af3213475651774030c47568c181/app/src/scenes/loom.ts",
+    "sha256": "bcce1d16bd6b4905a801286eb5b5b5a23cd943452125ffd98f7d15d0781b9301"
+  },
+  {
+    "repo": "mexicat/pdoom-video",
+    "commit": "bdbad537a7b7af3213475651774030c47568c181",
+    "path": "app/src/timeline.ts",
+    "url": "https://raw.githubusercontent.com/mexicat/pdoom-video/bdbad537a7b7af3213475651774030c47568c181/app/src/timeline.ts",
+    "sha256": "1c4369716aa88c5e33ff771ae060b91729d02e39ed2e6f927ec1b3fe5505ef61"
+  },
+  {
+    "repo": "yym8224961/world.execute-me-ascii",
+    "commit": "9d8e815281a104ccb648ec2f2df88cd9f0cb8c12",
+    "path": "scenes.py",
+    "url": "https://raw.githubusercontent.com/yym8224961/world.execute-me-ascii/9d8e815281a104ccb648ec2f2df88cd9f0cb8c12/scenes.py",
+    "sha256": "4a58f79e60fa0590677dd39c4d28898960b4c7b5f875d754f9a2c83602757ac9"
+  },
+  {
+    "repo": "yym8224961/world.execute-me-ascii",
+    "commit": "9d8e815281a104ccb648ec2f2df88cd9f0cb8c12",
+    "path": "player.py",
+    "url": "https://raw.githubusercontent.com/yym8224961/world.execute-me-ascii/9d8e815281a104ccb648ec2f2df88cd9f0cb8c12/player.py",
+    "sha256": "aac5c7b48f66301325ee393d36434b394d054505b573d8f5ec0cd508861d8263"
+  },
+  {
+    "repo": "guchang233/linear-algebra-promo",
+    "commit": "1c41a7e6ac34da79fa13b90314355a47f93604c0",
+    "path": "timeline.py",
+    "url": "https://raw.githubusercontent.com/guchang233/linear-algebra-promo/1c41a7e6ac34da79fa13b90314355a47f93604c0/timeline.py",
+    "sha256": "8077a4d09244457c90cc9763fb8c0d6a454e0f1aef33ab53dc49a03514aec2df"
+  },
+  {
+    "repo": "guchang233/linear-algebra-promo",
+    "commit": "1c41a7e6ac34da79fa13b90314355a47f93604c0",
+    "path": "scenes/s05_image.py",
+    "url": "https://raw.githubusercontent.com/guchang233/linear-algebra-promo/1c41a7e6ac34da79fa13b90314355a47f93604c0/scenes/s05_image.py",
+    "sha256": "c0c6ee9c6e8a5bcc1a8be8716c260c640151acb4d9fa9e6d212b197ce6e8eab8"
+  },
+  {
+    "repo": "guchang233/linear-algebra-promo",
+    "commit": "1c41a7e6ac34da79fa13b90314355a47f93604c0",
+    "path": "scenes/s02_eigen.py",
+    "url": "https://raw.githubusercontent.com/guchang233/linear-algebra-promo/1c41a7e6ac34da79fa13b90314355a47f93604c0/scenes/s02_eigen.py",
+    "sha256": "1bc42740a64f9f2ff038772d863f8facdcb8b95192d8547dcbd635e0ddc73af7"
+  },
+  {
+    "repo": "guchang233/linear-algebra-promo",
+    "commit": "1c41a7e6ac34da79fa13b90314355a47f93604c0",
+    "path": "music.py",
+    "url": "https://raw.githubusercontent.com/guchang233/linear-algebra-promo/1c41a7e6ac34da79fa13b90314355a47f93604c0/music.py",
+    "sha256": "0d783ad51cc2a7e322e55b073fce586e7bd3716345d53ff76c796567aadc915e"
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "title": "随机汇聚成规律 · 粒子演出版",
+  "version": 2,
+  "duration": 45,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "bpm": 144,
+  "scenes": [
+    {"id":"ignition","start":0,"end":3.3333333333,"label":"01 / 火花","caption":"如果，世界掷出一枚硬币。"},
+    {"id":"coin","start":3.3333333333,"end":6.6666666667,"label":"02 / 两种可能","caption":"正面，或反面。"},
+    {"id":"branches","start":6.6666666667,"end":10,"label":"03 / 分岔","caption":"每一次选择，都打开新的路径。"},
+    {"id":"galton","start":10,"end":15,"label":"04 / 穿越","caption":"让每个粒子经历 16 次独立的左右选择。"},
+    {"id":"pile","start":15,"end":20,"label":"05 / 显形","caption":"大多数路径，落在中间。"},
+    {"id":"city","start":20,"end":23.3333333333,"label":"06 / 概率地形","caption":"16 次公平选择的终点，构成二项分布。"},
+    {"id":"ribbons","start":23.3333333333,"end":28.3333333333,"label":"07 / 波动","caption":"重复独立试验，频率逐渐靠近概率。"},
+    {"id":"orbit","start":28.3333333333,"end":31.6666666667,"label":"08 / 变奏","caption":"单次结果仍然未知。"},
+    {"id":"wave","start":31.6666666667,"end":36.6666666667,"label":"09 / 共振","caption":"整体结构，却逐渐清晰。"},
+    {"id":"vortex","start":36.6666666667,"end":40,"label":"10 / 汇聚","caption":"从无数可能中，找到规律。"},
+    {"id":"finale","start":40,"end":45,"label":"11 / 秩序","caption":"概率，给不确定以形状。"}
+  ],
+  "cues": [
+    {"t":0,"name":"impact","strength":0.9},
+    {"t":2.6,"name":"riser","strength":0.6,"duration":0.73},
+    {"t":3.3333333333,"name":"impact","strength":0.8},
+    {"t":6.6666666667,"name":"impact","strength":0.8},
+    {"t":9.16,"name":"riser","strength":0.8,"duration":0.84},
+    {"t":10,"name":"impact","strength":1},
+    {"t":15,"name":"impact","strength":0.8},
+    {"t":20,"name":"impact","strength":0.9},
+    {"t":23.3333333333,"name":"glass","strength":0.8},
+    {"t":28.3333333333,"name":"impact","strength":0.7},
+    {"t":30.8333333333,"name":"riser","strength":0.65,"duration":0.83},
+    {"t":31.6666666667,"name":"impact","strength":1},
+    {"t":36.6666666667,"name":"impact","strength":0.9},
+    {"t":38.3333333333,"name":"riser","strength":0.85,"duration":1.66},
+    {"t":40,"name":"impact","strength":1.15},
+    {"t":43.3333333333,"name":"chime","strength":0.8}
+  ]
+}

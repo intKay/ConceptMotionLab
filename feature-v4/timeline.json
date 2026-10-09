@@ -1,0 +1,457 @@
+{
+  "title": "不确定的形状·重构版",
+  "duration": 210,
+  "width": 1600,
+  "height": 900,
+  "fps": 30,
+  "bpm": 120,
+  "scenes": [
+    {
+      "id": "question",
+      "start": 0,
+      "end": 14,
+      "chapter": "疑问",
+      "title": "一次抛掷之后"
+    },
+    {
+      "id": "paths",
+      "start": 14,
+      "end": 38,
+      "chapter": "路径",
+      "title": "相同结果，不同来路"
+    },
+    {
+      "id": "condition",
+      "start": 38,
+      "end": 60,
+      "chapter": "条件",
+      "title": "信息改变问题"
+    },
+    {
+      "id": "distribution",
+      "start": 60,
+      "end": 84,
+      "chapter": "分布",
+      "title": "把路径压成一个数"
+    },
+    {
+      "id": "moments",
+      "start": 84,
+      "end": 108,
+      "chapter": "矩",
+      "title": "重心与散开"
+    },
+    {
+      "id": "law",
+      "start": 108,
+      "end": 132,
+      "chapter": "大数定律",
+      "title": "频率不是直线"
+    },
+    {
+      "id": "clt",
+      "start": 132,
+      "end": 156,
+      "chapter": "中心极限定理",
+      "title": "偏斜怎样走向钟形"
+    },
+    {
+      "id": "interval",
+      "start": 156,
+      "end": 180,
+      "chapter": "区间估计",
+      "title": "抽样让边界移动"
+    },
+    {
+      "id": "test",
+      "start": 180,
+      "end": 200,
+      "chapter": "假设检验",
+      "title": "12 次正面算异常吗"
+    },
+    {
+      "id": "finale",
+      "start": 200,
+      "end": 210,
+      "chapter": "终章",
+      "title": "不确定的形状"
+    }
+  ],
+  "captions": [
+    {
+      "t": 0,
+      "big": "16 次抛掷。",
+      "small": "观察到 12 次正面。",
+      "beat": 0
+    },
+    {
+      "t": 4,
+      "big": "12 / 16",
+      "small": "这枚硬币，偏了吗？",
+      "beat": 1
+    },
+    {
+      "t": 9,
+      "big": "先别急着下结论。",
+      "small": "一次结果和产生结果的机制，并不是同一件事。",
+      "beat": 2
+    },
+    {
+      "t": 14,
+      "big": "每一条有序路径",
+      "small": "在公平且独立的模型下，都有 1 / 65,536 的概率。",
+      "beat": 0
+    },
+    {
+      "t": 21,
+      "big": "折叠次序",
+      "small": "只数正面次数，不同路径会落在同一格。",
+      "beat": 1
+    },
+    {
+      "t": 29,
+      "big": "C(16,8)=12,870",
+      "small": "而 C(16,12)=1,820；中间更高是组合数造成的。",
+      "beat": 2
+    },
+    {
+      "t": 38,
+      "big": "知道第一枚是正面",
+      "small": "允许的路径从 65,536 条减为 32,768 条。",
+      "beat": 0
+    },
+    {
+      "t": 45,
+      "big": "条件概率改变分母",
+      "small": "P(B|A)=P(A∩B)/P(A)，前提是 P(A)>0。",
+      "beat": 1
+    },
+    {
+      "t": 53,
+      "big": "独立性是另一回事",
+      "small": "已知前一次结果，下一枚公平硬币仍是 1/2。",
+      "beat": 2
+    },
+    {
+      "t": 60,
+      "big": "X = 16 次中的正面次数",
+      "small": "一条有序路径，映射成一个 0 到 16 的数。",
+      "beat": 0
+    },
+    {
+      "t": 67,
+      "big": "P(X=k)=C(16,k)/2^16",
+      "small": "17 个概率相加为 1；峰顶在 8 次。",
+      "beat": 1
+    },
+    {
+      "t": 76,
+      "big": "12 次正面：2.78%",
+      "small": "这是单点概率，还不是“硬币偏了”的检验结论。",
+      "beat": 2
+    },
+    {
+      "t": 84,
+      "big": "E[X] = 8",
+      "small": "期望是概率的加权重心。",
+      "beat": 0
+    },
+    {
+      "t": 91,
+      "big": "Var(X)=4，SD(X)=2",
+      "small": "方差量化围绕重心的散开。",
+      "beat": 1
+    },
+    {
+      "t": 100,
+      "big": "12 距离重心 2 个标准差",
+      "small": "不常见，并不等于不可能。",
+      "beat": 2
+    },
+    {
+      "t": 108,
+      "big": "12/16 = 0.75",
+      "small": "如果继续抛，频率会怎么走？",
+      "beat": 0
+    },
+    {
+      "t": 115,
+      "big": "每一次仍会向上或向下",
+      "small": "一条真实的固定种子轨迹，在 1/2 周围起伏。",
+      "beat": 1
+    },
+    {
+      "t": 123,
+      "big": "大数定律给的是长期趋势",
+      "small": "独立同分布时趋向 1/2；并不要求每一步更近。",
+      "beat": 2
+    },
+    {
+      "t": 132,
+      "big": "换一个更偏斜的总体",
+      "small": "现在 X 服从指数分布：均值和标准差都为 1。",
+      "beat": 0
+    },
+    {
+      "t": 139,
+      "big": "反复抽样，再取均值",
+      "small": "n 从 1 到 4 到 16，均值的分布逐渐收窄。",
+      "beat": 1
+    },
+    {
+      "t": 148,
+      "big": "标准误差 = 1/√n",
+      "small": "适当条件下，标准化样本均值渐近正态。",
+      "beat": 2
+    },
+    {
+      "t": 156,
+      "big": "只抽到样本，参数未知",
+      "small": "新模型：总体正态、σ=1，样本量 n=25。",
+      "beat": 0
+    },
+    {
+      "t": 163,
+      "big": "每次抽样，区间都移动",
+      "small": "区间 = 样本均值 ± 1.96/√25。",
+      "beat": 1
+    },
+    {
+      "t": 172,
+      "big": "95% 指的是程序",
+      "small": "重复抽样时，所构造区间约 95% 覆盖固定参数。",
+      "beat": 2
+    },
+    {
+      "t": 180,
+      "big": "回到那枚硬币",
+      "small": "H0：正面概率 p=1/2；观察 X=12。",
+      "beat": 0
+    },
+    {
+      "t": 186,
+      "big": "至少同样极端",
+      "small": "双侧尾部是 X≤4 或 X≥12，精确 p=0.0768。",
+      "beat": 1
+    },
+    {
+      "t": 193,
+      "big": "α=0.05：暂不拒绝 H0",
+      "small": "它不能证明硬币公平，也不衡量偏倚有多大。",
+      "beat": 2
+    },
+    {
+      "t": 200,
+      "big": "概率，从模型出发。",
+      "small": "统计，从样本回望模型。",
+      "beat": 0
+    },
+    {
+      "t": 205,
+      "big": "让不确定，显露形状。",
+      "small": "概率论与数理统计",
+      "beat": 1
+    }
+  ],
+  "cues": [
+    {
+      "t": 0,
+      "name": "impact",
+      "strength": 1
+    },
+    {
+      "t": 4,
+      "name": "glass",
+      "strength": 0.4
+    },
+    {
+      "t": 9,
+      "name": "glass",
+      "strength": 0.4
+    },
+    {
+      "t": 13,
+      "name": "riser",
+      "strength": 0.3,
+      "duration": 1
+    },
+    {
+      "t": 14,
+      "name": "impact",
+      "strength": 0.65
+    },
+    {
+      "t": 21,
+      "name": "glass",
+      "strength": 0.4
+    },
+    {
+      "t": 29,
+      "name": "glass",
+      "strength": 0.4
+    },
+    {
+      "t": 37,
+      "name": "riser",
+      "strength": 0.3,
+      "duration": 1
+    },
+    {
+      "t": 38,
+      "name": "impact",
+      "strength": 0.65
+    },
+    {
+      "t": 45,
+      "name": "glass",
+      "strength": 0.4
+    },
+    {
+      "t": 53,
+      "name": "glass",
+      "strength": 0.4
+    },
+    {
+      "t": 59,
+      "name": "riser",
+      "strength": 0.3,
+      "duration": 1
+    },
+    {
+      "t": 60,
+      "name": "impact",
+      "strength": 1
+    },
+    {
+      "t": 67,
+      "name": "glass",
+      "strength": 0.4
+    },
+    {
+      "t": 76,
+      "name": "glass",
+      "strength": 0.4
+    },
+    {
+      "t": 83,
+      "name": "riser",
+      "strength": 0.3,
+      "duration": 1
+    },
+    {
+      "t": 84,
+      "name": "impact",
+      "strength": 0.65
+    },
+    {
+      "t": 91,
+      "name": "glass",
+      "strength": 0.4
+    },
+    {
+      "t": 100,
+      "name": "glass",
+      "strength": 0.4
+    },
+    {
+      "t": 107,
+      "name": "riser",
+      "strength": 0.3,
+      "duration": 1
+    },
+    {
+      "t": 108,
+      "name": "impact",
+      "strength": 0.65
+    },
+    {
+      "t": 115,
+      "name": "glass",
+      "strength": 0.4
+    },
+    {
+      "t": 123,
+      "name": "glass",
+      "strength": 0.4
+    },
+    {
+      "t": 131,
+      "name": "riser",
+      "strength": 0.3,
+      "duration": 1
+    },
+    {
+      "t": 132,
+      "name": "impact",
+      "strength": 1
+    },
+    {
+      "t": 139,
+      "name": "glass",
+      "strength": 0.4
+    },
+    {
+      "t": 148,
+      "name": "glass",
+      "strength": 0.4
+    },
+    {
+      "t": 155,
+      "name": "riser",
+      "strength": 0.3,
+      "duration": 1
+    },
+    {
+      "t": 156,
+      "name": "impact",
+      "strength": 0.65
+    },
+    {
+      "t": 163,
+      "name": "glass",
+      "strength": 0.4
+    },
+    {
+      "t": 172,
+      "name": "glass",
+      "strength": 0.4
+    },
+    {
+      "t": 179,
+      "name": "riser",
+      "strength": 0.3,
+      "duration": 1
+    },
+    {
+      "t": 180,
+      "name": "impact",
+      "strength": 1
+    },
+    {
+      "t": 186,
+      "name": "glass",
+      "strength": 0.4
+    },
+    {
+      "t": 193,
+      "name": "glass",
+      "strength": 0.4
+    },
+    {
+      "t": 199,
+      "name": "riser",
+      "strength": 0.3,
+      "duration": 1
+    },
+    {
+      "t": 200,
+      "name": "impact",
+      "strength": 1
+    },
+    {
+      "t": 205,
+      "name": "glass",
+      "strength": 0.4
+    }
+  ]
+}

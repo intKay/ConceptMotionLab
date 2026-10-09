@@ -1,0 +1,28 @@
+out/
+node_modules/
+*.log
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+feature-v6/.publish/
+
+# Encoded media and intermediate audio are distributed through Releases.
+*.mp4
+*.wav
+*.flac
+*.mp3
+*.aac
+shots/
+keyframes/
+
+# Separate MV projects include third-party songs, lyrics and working assets.
+/mv-last-summer-whisper/
+/mv-series/
+
+# Downloaded reference source: retain locally; publish links and analysis only.
+/feature-v5/references/abstract/
+/feature-v5/references/ascii/
+/feature-v5/references/linear/
+/feature-v5/references/pdoom/

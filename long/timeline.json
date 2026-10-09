@@ -1,0 +1,426 @@
+{
+  "title": "不确定的形状",
+  "duration": 210,
+  "fps": 24,
+  "width": 1280,
+  "height": 720,
+  "bpm": 120,
+  "scenes": [
+    {
+      "id": "burst",
+      "start": 0,
+      "end": 10,
+      "label": "序章 / 随机",
+      "title": "下一次，会是什么？",
+      "caption": "单次结果不可预知；规律要在重复中寻找。",
+      "chapter": 0
+    },
+    {
+      "id": "coin",
+      "start": 10,
+      "end": 20,
+      "label": "01 / 两种可能",
+      "title": "从一次抛掷开始",
+      "caption": "公平硬币：正面与反面各有 1/2 的概率。",
+      "chapter": 1
+    },
+    {
+      "id": "tree",
+      "start": 20,
+      "end": 30,
+      "label": "02 / 路径",
+      "title": "选择，向外生长",
+      "caption": "16 次独立抛掷，有 2^16 = 65,536 种有序结果。",
+      "chapter": 2
+    },
+    {
+      "id": "galton",
+      "start": 30,
+      "end": 40,
+      "label": "03 / 汇聚",
+      "title": "不同路径，同一终点",
+      "caption": "恰好 8 次正面有 C(16,8) = 12,870 条路径。",
+      "chapter": 3
+    },
+    {
+      "id": "condition",
+      "start": 40,
+      "end": 50,
+      "label": "04 / 条件",
+      "title": "信息，改变样本空间",
+      "caption": "已知 A 发生后，P(B|A) = P(A∩B) / P(A)。",
+      "chapter": 4
+    },
+    {
+      "id": "independence",
+      "start": 50,
+      "end": 60,
+      "label": "05 / 独立",
+      "title": "不记得上一回",
+      "caption": "独立时 P(A∩B) = P(A)P(B)；条件不改变概率。",
+      "chapter": 5
+    },
+    {
+      "id": "numberline",
+      "start": 60,
+      "end": 70,
+      "label": "06 / 随机变量",
+      "title": "给结果一个数值",
+      "caption": "X 可以记录 16 次抛掷中正面的次数。",
+      "chapter": 6
+    },
+    {
+      "id": "distribution",
+      "start": 70,
+      "end": 80,
+      "label": "07 / 分布",
+      "title": "可能性，也有形状",
+      "caption": "X ~ Binomial(16, 1/2)；各取值的概率相加为 1。",
+      "chapter": 7
+    },
+    {
+      "id": "expectation",
+      "start": 80,
+      "end": 90,
+      "label": "08 / 期望",
+      "title": "找到概率的重心",
+      "caption": "E[X] = ΣxP(X=x) = 8；它是加权平均。",
+      "chapter": 8
+    },
+    {
+      "id": "variance",
+      "start": 90,
+      "end": 100,
+      "label": "09 / 方差",
+      "title": "同一中心，不同散开",
+      "caption": "Var(X) = E[(X−E[X])²]；它量化离散程度。",
+      "chapter": 9
+    },
+    {
+      "id": "law",
+      "start": 100,
+      "end": 110,
+      "label": "10 / 大数定律",
+      "title": "重复，让频率稳定",
+      "caption": "独立同分布时，样本频率趋向 1/2；途中仍会起伏。",
+      "chapter": 10
+    },
+    {
+      "id": "wave",
+      "start": 110,
+      "end": 120,
+      "label": "11 / 波动",
+      "title": "近看仍有浪，远看有岸",
+      "caption": "波浪是意象：规律不抹去单次的不确定。",
+      "chapter": 11
+    },
+    {
+      "id": "means",
+      "start": 120,
+      "end": 130,
+      "label": "12 / 抽样分布",
+      "title": "每次抽样，都有新均值",
+      "caption": "重复抽样时，样本均值本身形成分布。",
+      "chapter": 12
+    },
+    {
+      "id": "clt",
+      "start": 130,
+      "end": 140,
+      "label": "13 / 中心极限定理",
+      "title": "均值的分布渐近正态",
+      "caption": "在适当条件下，标准化样本均值趋近正态分布。",
+      "chapter": 13
+    },
+    {
+      "id": "sample",
+      "start": 140,
+      "end": 150,
+      "label": "14 / 样本",
+      "title": "从总体取出一部分",
+      "caption": "样本是观察到的点；总体仍有未知。",
+      "chapter": 14
+    },
+    {
+      "id": "estimate",
+      "start": 150,
+      "end": 160,
+      "label": "15 / 点估计",
+      "title": "用样本触碰参数",
+      "caption": "同一总体反复抽样，估计值会变化。",
+      "chapter": 15
+    },
+    {
+      "id": "interval",
+      "start": 160,
+      "end": 170,
+      "label": "16 / 区间估计",
+      "title": "让不确定也有边界",
+      "caption": "95% 置信程序：重复使用时约 95% 的区间覆盖固定参数。",
+      "chapter": 16
+    },
+    {
+      "id": "ptest",
+      "start": 170,
+      "end": 180,
+      "label": "17 / 假设检验",
+      "title": "先假定一个基准世界",
+      "caption": "p 值：零假设下，至少同样极端结果的概率。",
+      "chapter": 17
+    },
+    {
+      "id": "decision",
+      "start": 180,
+      "end": 190,
+      "label": "18 / 判断",
+      "title": "证据，不是判决书",
+      "caption": "小 p 值不等于零假设为假的概率，也不代表效应大。",
+      "chapter": 18
+    },
+    {
+      "id": "synthesis",
+      "start": 190,
+      "end": 200,
+      "label": "19 / 归航",
+      "title": "从模型走向数据",
+      "caption": "概率描述模型；统计用样本检验与推断。",
+      "chapter": 19
+    },
+    {
+      "id": "finale",
+      "start": 200,
+      "end": 210,
+      "label": "终章 / 不确定的形状",
+      "title": "让不确定，显露形状",
+      "caption": "概率论与数理统计 · 一场从随机到推断的旅程",
+      "chapter": 20
+    }
+  ],
+  "cues": [
+    {
+      "t": 0,
+      "name": "impact",
+      "strength": 1
+    },
+    {
+      "t": 9,
+      "name": "riser",
+      "duration": 1.0,
+      "strength": 0.3
+    },
+    {
+      "t": 10,
+      "name": "impact",
+      "strength": 0.7
+    },
+    {
+      "t": 19,
+      "name": "riser",
+      "duration": 1.0,
+      "strength": 0.3
+    },
+    {
+      "t": 20,
+      "name": "glass",
+      "strength": 0.7
+    },
+    {
+      "t": 29,
+      "name": "riser",
+      "duration": 1.0,
+      "strength": 0.3
+    },
+    {
+      "t": 30,
+      "name": "glass",
+      "strength": 0.7
+    },
+    {
+      "t": 39,
+      "name": "riser",
+      "duration": 1.0,
+      "strength": 0.3
+    },
+    {
+      "t": 40,
+      "name": "impact",
+      "strength": 0.7
+    },
+    {
+      "t": 49,
+      "name": "riser",
+      "duration": 1.0,
+      "strength": 0.3
+    },
+    {
+      "t": 50,
+      "name": "glass",
+      "strength": 0.7
+    },
+    {
+      "t": 59,
+      "name": "riser",
+      "duration": 1.0,
+      "strength": 0.3
+    },
+    {
+      "t": 60,
+      "name": "impact",
+      "strength": 0.7
+    },
+    {
+      "t": 69,
+      "name": "riser",
+      "duration": 1.0,
+      "strength": 0.3
+    },
+    {
+      "t": 70,
+      "name": "glass",
+      "strength": 0.7
+    },
+    {
+      "t": 79,
+      "name": "riser",
+      "duration": 1.0,
+      "strength": 0.3
+    },
+    {
+      "t": 80,
+      "name": "glass",
+      "strength": 0.7
+    },
+    {
+      "t": 89,
+      "name": "riser",
+      "duration": 1.0,
+      "strength": 0.3
+    },
+    {
+      "t": 90,
+      "name": "glass",
+      "strength": 0.7
+    },
+    {
+      "t": 99,
+      "name": "riser",
+      "duration": 1.0,
+      "strength": 0.3
+    },
+    {
+      "t": 100,
+      "name": "impact",
+      "strength": 0.7
+    },
+    {
+      "t": 109,
+      "name": "riser",
+      "duration": 1.0,
+      "strength": 0.3
+    },
+    {
+      "t": 110,
+      "name": "glass",
+      "strength": 0.7
+    },
+    {
+      "t": 119,
+      "name": "riser",
+      "duration": 1.0,
+      "strength": 0.3
+    },
+    {
+      "t": 120,
+      "name": "impact",
+      "strength": 0.7
+    },
+    {
+      "t": 129,
+      "name": "riser",
+      "duration": 1.0,
+      "strength": 0.3
+    },
+    {
+      "t": 130,
+      "name": "glass",
+      "strength": 0.7
+    },
+    {
+      "t": 139,
+      "name": "riser",
+      "duration": 1.0,
+      "strength": 0.3
+    },
+    {
+      "t": 140,
+      "name": "impact",
+      "strength": 0.7
+    },
+    {
+      "t": 149,
+      "name": "riser",
+      "duration": 1.0,
+      "strength": 0.3
+    },
+    {
+      "t": 150,
+      "name": "glass",
+      "strength": 0.7
+    },
+    {
+      "t": 159,
+      "name": "riser",
+      "duration": 1.0,
+      "strength": 0.3
+    },
+    {
+      "t": 160,
+      "name": "impact",
+      "strength": 0.7
+    },
+    {
+      "t": 169,
+      "name": "riser",
+      "duration": 1.0,
+      "strength": 0.3
+    },
+    {
+      "t": 170,
+      "name": "impact",
+      "strength": 0.7
+    },
+    {
+      "t": 179,
+      "name": "riser",
+      "duration": 1.0,
+      "strength": 0.3
+    },
+    {
+      "t": 180,
+      "name": "glass",
+      "strength": 0.7
+    },
+    {
+      "t": 189,
+      "name": "riser",
+      "duration": 1.0,
+      "strength": 0.3
+    },
+    {
+      "t": 190,
+      "name": "glass",
+      "strength": 0.7
+    },
+    {
+      "t": 199,
+      "name": "riser",
+      "duration": 1.0,
+      "strength": 0.3
+    },
+    {
+      "t": 200,
+      "name": "impact",
+      "strength": 0.7
+    }
+  ]
+}

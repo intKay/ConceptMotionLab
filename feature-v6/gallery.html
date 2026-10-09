@@ -1,0 +1,40 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>v6 风格对比</title><style>
+*{box-sizing:border-box}html,body{margin:0;height:100%;background:#111;color:#eee;font:14px system-ui,"Microsoft YaHei",sans-serif}
+body{display:flex;flex-direction:column}
+#bar{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;padding:10px 16px;background:#1b1b1b;border-bottom:1px solid #333}
+.grp{display:flex;gap:6px;align-items:center}.grp b{color:#888;font-weight:500;margin-right:2px}
+button{font:inherit;color:#eee;background:#2a2a2a;border:1px solid #444;border-radius:4px;padding:6px 14px;cursor:pointer}
+button:hover{background:#363636}button.on{background:#d9261c;border-color:#d9261c;color:#fff}
+#note{margin-left:auto;color:#999;font-size:13px}
+#view{flex:1;min-height:0;display:flex;align-items:center;justify-content:center;padding:12px}
+iframe,video{width:min(100%,calc((100vh - 110px)*16/9));aspect-ratio:16/9;border:0;background:#000}
+</style></head><body>
+<div id="bar">
+  <div class="grp"><b>风格</b><span id="styles"></span></div>
+  <div class="grp"><b>方式</b><button id="m-live">实时预览（可拖动）</button><button id="m-video">编码 MP4</button></div>
+  <div class="grp"><button id="reload">重新载入</button></div>
+  <span id="note"></span>
+</div>
+<div id="view"></div>
+<script>
+// 新增风格时在这里加一项（目录需有 index.html 与 out/prototype.mp4）
+const STYLES = [
+  { name: '米色记录纸', live: 'index.html', video: 'out/prototype.mp4', note: '朱砂／墨蓝，宋体读数' },
+  { name: '几何包豪斯', live: 'bauhaus/index.html', video: 'bauhaus/out/prototype.mp4', note: '红黄蓝黑，粗黑体与横幅' },
+];
+let si = +(localStorage.getItem('v6s') ?? 0), mode = localStorage.getItem('v6m') || 'live';
+const $ = id => document.getElementById(id), view = $('view');
+function draw() {
+  const s = STYLES[si] || STYLES[0];
+  $('styles').innerHTML = '';
+  STYLES.forEach((x, i) => { const b = document.createElement('button'); b.textContent = x.name; b.className = i === si ? 'on' : ''; b.onclick = () => { si = i; localStorage.setItem('v6s', i); draw(); }; $('styles').appendChild(b); });
+  $('m-live').className = mode === 'live' ? 'on' : ''; $('m-video').className = mode === 'video' ? 'on' : '';
+  $('note').textContent = s.note + (mode === 'video' ? ' · 无配乐' : ' · 空格播放／暂停，←→ 跳 1 秒');
+  view.innerHTML = mode === 'live' ? `<iframe src="${s.live}"></iframe>` : `<video src="${s.video}" controls autoplay loop></video>`;
+}
+$('m-live').onclick = () => { mode = 'live'; localStorage.setItem('v6m', mode); draw(); };
+$('m-video').onclick = () => { mode = 'video'; localStorage.setItem('v6m', mode); draw(); };
+$('reload').onclick = draw;
+addEventListener('keydown', e => { if (e.key === '1' || e.key === '2') { si = +e.key - 1; if (STYLES[si]) draw(); } });
+draw();
+</script></body></html>

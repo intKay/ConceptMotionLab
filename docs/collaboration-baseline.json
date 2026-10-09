@@ -1,0 +1,73 @@
+{
+  "checkedOn": "2026-10-08",
+  "timezone": "Asia/Taipei",
+  "checkedBy": "Codex",
+  "scope": "collaboration preparation; no new animation, Claude invocation, or media re-export",
+  "historicalFilms": [
+    {
+      "path": "feature-v5/out/film-v5.mp4",
+      "bytes": 27019090,
+      "sha256": "3fd95cb451945f804c8670b2a7ff86bbe83c1f29350bbec448dc36aeb6b9cec4",
+      "matches20260929Record": true
+    },
+    {
+      "path": "feature-v4/out/film-v4.mp4",
+      "bytes": 22271744,
+      "sha256": "e50ac26907780cd384753e728a367049ba6c61b8eb482f30597927dbb61b1657",
+      "matches20260929Record": true
+    },
+    {
+      "path": "long/out/film.mp4",
+      "bytes": 33212003,
+      "sha256": "52f47471eb75a39b182b52e7cff3429224b3ace7df83f45a1bb9002960564438",
+      "matches20260929Record": true
+    }
+  ],
+  "claude": {
+    "desktopInstalled": true,
+    "desktopVersion": "2.26454.2.0",
+    "desktopRunning": true,
+    "cliResolvedOnPath": false,
+    "authenticationVerified": false,
+    "codeEntitlementVerified": false,
+    "projectTaskSubmitted": false,
+    "metadataSources": [
+      "Get-AppxPackage *Claude*",
+      "Get-Process *claude*",
+      "Get-Command claude"
+    ],
+    "credentialsRead": false
+  },
+  "project": {
+    "gitRepository": false,
+    "commonRules": "AGENTS.md",
+    "claudeEntry": "CLAUDE.md",
+    "handoff": "HANDOFF.md",
+    "prototypeBrief": "feature-v6/BRIEF.md"
+  },
+  "fixture": {
+    "path": "feature-v6/fixtures.json",
+    "sha256": "45c29423f6f92d2f898f8f4ed102320e93e70df25edb590b7eb2562c58d5f4f9",
+    "source": {
+      "path": "../feature-v5/model.js",
+      "sha256": "af3084b2c4d960f2c71c79b79f53528a8d679e2fea341a3c41ac65af67250016"
+    },
+    "checks": {
+      "observedCounts": "16 total, 12 heads, 4 tails",
+      "pmfIndependentCheck": "all 17 probabilities equal coefficients of (1+x)^16 divided by 65536",
+      "probabilitySum": 1,
+      "simulationRecount": "all 1536 paths, heads and within-bin ranks agree with counts",
+      "pointProbability": 0.02777099609375,
+      "symmetricTwoSidedPValue": 0.076812744140625,
+      "passed": true
+    }
+  },
+  "notPerformed": [
+    "Claude model invocation",
+    "new animation implementation",
+    "new MP4 rendering",
+    "full historical MP4 decode",
+    "manual audio listening",
+    "user visual acceptance"
+  ]
+}

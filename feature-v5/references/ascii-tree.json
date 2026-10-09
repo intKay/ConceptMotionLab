@@ -1,0 +1,179 @@
+{
+  "sha": "9d8e815281a104ccb648ec2f2df88cd9f0cb8c12",
+  "url": "https://api.github.com/repos/yym8224961/world.execute-me-ascii/git/trees/9d8e815281a104ccb648ec2f2df88cd9f0cb8c12",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48c19a0d26629c245b1c59a9d27ad96c0484294e",
+      "size": 241,
+      "url": "https://api.github.com/repos/yym8224961/world.execute-me-ascii/git/blobs/48c19a0d26629c245b1c59a9d27ad96c0484294e"
+    },
+    {
+      "path": "AudioClock.swift",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a44575f046c9ef6637596b8130f085ca807e3657",
+      "size": 2193,
+      "url": "https://api.github.com/repos/yym8224961/world.execute-me-ascii/git/blobs/a44575f046c9ef6637596b8130f085ca807e3657"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57be395f836b3c7d0e97cc6a7ce1646fe6bd62dd",
+      "size": 2690,
+      "url": "https://api.github.com/repos/yym8224961/world.execute-me-ascii/git/blobs/57be395f836b3c7d0e97cc6a7ce1646fe6bd62dd"
+    },
+    {
+      "path": "build-audio.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "875599021b4d8e3c2efd0e827c66115f7a8d0aca",
+      "size": 854,
+      "url": "https://api.github.com/repos/yym8224961/world.execute-me-ascii/git/blobs/875599021b4d8e3c2efd0e827c66115f7a8d0aca"
+    },
+    {
+      "path": "config.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7480d6d90a4ea9bacf9796a30b00359b015fde4",
+      "size": 84,
+      "url": "https://api.github.com/repos/yym8224961/world.execute-me-ascii/git/blobs/c7480d6d90a4ea9bacf9796a30b00359b015fde4"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "952bbd9166820677e07ef4910055fcc0cb61048b",
+      "url": "https://api.github.com/repos/yym8224961/world.execute-me-ascii/git/trees/952bbd9166820677e07ef4910055fcc0cb61048b"
+    },
+    {
+      "path": "docs/images",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f920635dbec76bec2c901b78877e8b74e8d9198f",
+      "url": "https://api.github.com/repos/yym8224961/world.execute-me-ascii/git/trees/f920635dbec76bec2c901b78877e8b74e8d9198f"
+    },
+    {
+      "path": "docs/images/mv-cover.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28ab683d351f77f7052e3fa810c50b0f343c301c",
+      "size": 3048987,
+      "url": "https://api.github.com/repos/yym8224961/world.execute-me-ascii/git/blobs/28ab683d351f77f7052e3fa810c50b0f343c301c"
+    },
+    {
+      "path": "lyrics.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22b6b239cf38c83ddadf8bbcbddbf04663d764d9",
+      "size": 13905,
+      "url": "https://api.github.com/repos/yym8224961/world.execute-me-ascii/git/blobs/22b6b239cf38c83ddadf8bbcbddbf04663d764d9"
+    },
+    {
+      "path": "player.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64ff60b73cee9730df9f5c6485aee7e0caef5938",
+      "size": 17303,
+      "url": "https://api.github.com/repos/yym8224961/world.execute-me-ascii/git/blobs/64ff60b73cee9730df9f5c6485aee7e0caef5938"
+    },
+    {
+      "path": "run.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "bed7dd9c72dddf8b50c41e7f561d3200b7ff25ca",
+      "size": 520,
+      "url": "https://api.github.com/repos/yym8224961/world.execute-me-ascii/git/blobs/bed7dd9c72dddf8b50c41e7f561d3200b7ff25ca"
+    },
+    {
+      "path": "scenes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22e6ca2fec72355d99b53c294c27f2bcba19b7fa",
+      "size": 128287,
+      "url": "https://api.github.com/repos/yym8224961/world.execute-me-ascii/git/blobs/22e6ca2fec72355d99b53c294c27f2bcba19b7fa"
+    },
+    {
+      "path": "spectrum.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f45717ba724a4f4603f9d871b5e26b4992117a7c",
+      "size": 1778342,
+      "url": "https://api.github.com/repos/yym8224961/world.execute-me-ascii/git/blobs/f45717ba724a4f4603f9d871b5e26b4992117a7c"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "37e56b7ae0495f5f6b00f8e61840f1b66af41482",
+      "url": "https://api.github.com/repos/yym8224961/world.execute-me-ascii/git/trees/37e56b7ae0495f5f6b00f8e61840f1b66af41482"
+    },
+    {
+      "path": "tests/test_bundle.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55cc5db063503070c9d3eb8edecc119f2ac26ac7",
+      "size": 2764,
+      "url": "https://api.github.com/repos/yym8224961/world.execute-me-ascii/git/blobs/55cc5db063503070c9d3eb8edecc119f2ac26ac7"
+    },
+    {
+      "path": "tools",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3f8ef264cad2bad8aa16e6172d7308dd802c07b2",
+      "url": "https://api.github.com/repos/yym8224961/world.execute-me-ascii/git/trees/3f8ef264cad2bad8aa16e6172d7308dd802c07b2"
+    },
+    {
+      "path": "tools/build_bundle.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17c159fb55612564f6e2e79f12866e7b0b5291af",
+      "size": 2370,
+      "url": "https://api.github.com/repos/yym8224961/world.execute-me-ascii/git/blobs/17c159fb55612564f6e2e79f12866e7b0b5291af"
+    },
+    {
+      "path": "tools/bundle_main.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "033c66e12ccd79c38714d5d935cac6eebb925322",
+      "size": 1469,
+      "url": "https://api.github.com/repos/yym8224961/world.execute-me-ascii/git/blobs/033c66e12ccd79c38714d5d935cac6eebb925322"
+    },
+    {
+      "path": "双语字幕.srt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6a3809424df3cad34f7154ffba276964360b29f",
+      "size": 8713,
+      "url": "https://api.github.com/repos/yym8224961/world.execute-me-ascii/git/blobs/c6a3809424df3cad34f7154ffba276964360b29f"
+    },
+    {
+      "path": "双语歌词.lrc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be559a825e0e241f4ed5754f7f792d0b3b40656b",
+      "size": 7145,
+      "url": "https://api.github.com/repos/yym8224961/world.execute-me-ascii/git/blobs/be559a825e0e241f4ed5754f7f792d0b3b40656b"
+    },
+    {
+      "path": "播放MV.command",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "02dd481de9755da8b9973a51d075ec3c00c16ec1",
+      "size": 71,
+      "url": "https://api.github.com/repos/yym8224961/world.execute-me-ascii/git/blobs/02dd481de9755da8b9973a51d075ec3c00c16ec1"
+    },
+    {
+      "path": "运行单文件.command",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ba05d3af8f8ba0e30f8e5d1258ee53d0735a74fc",
+      "size": 282,
+      "url": "https://api.github.com/repos/yym8224961/world.execute-me-ascii/git/blobs/ba05d3af8f8ba0e30f8e5d1258ee53d0735a74fc"
+    }
+  ],
+  "truncated": false
+}
