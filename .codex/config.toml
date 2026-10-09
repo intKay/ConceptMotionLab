@@ -1,0 +1,12 @@
+[mcp_servers.blender]
+command = 'C:\Users\15760\AppData\Local\hermes\bin\uvx.exe'
+args = ['--offline', 'mcp-for-blender==2.1.9']
+startup_timeout_sec = 60
+tool_timeout_sec = 180
+
+[mcp_servers.blender.env]
+DISABLE_TELEMETRY = 'true'
+BLENDER_HOST = '127.0.0.1'
+BLENDER_PORT = '9876'
+UV_CACHE_DIR = 'C:\AIProjects\Concept-Motion-Lab\feature-v6\blender-link\cache'
+UV_TOOL_DIR = 'C:\AIProjects\Concept-Motion-Lab\feature-v6\blender-link\tools'
