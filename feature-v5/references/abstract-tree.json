@@ -1,0 +1,135 @@
+{
+  "sha": "5d01a758af8b4b3b7bb5a2a5b7f0efb4cf1667eb",
+  "url": "https://api.github.com/repos/AnctyEnly453/abstract-algebra-promo/git/trees/5d01a758af8b4b3b7bb5a2a5b7f0efb4cf1667eb",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "327059ff3a49a0e9f9aaeb9783f030edb146573b",
+      "size": 75,
+      "url": "https://api.github.com/repos/AnctyEnly453/abstract-algebra-promo/git/blobs/327059ff3a49a0e9f9aaeb9783f030edb146573b"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0998699b2b520fdca02316db49b096cdb325773",
+      "size": 2304,
+      "url": "https://api.github.com/repos/AnctyEnly453/abstract-algebra-promo/git/blobs/c0998699b2b520fdca02316db49b096cdb325773"
+    },
+    {
+      "path": "build.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1979c6af21d541203bfd9447356c0661d8b8967b",
+      "size": 700,
+      "url": "https://api.github.com/repos/AnctyEnly453/abstract-algebra-promo/git/blobs/1979c6af21d541203bfd9447356c0661d8b8967b"
+    },
+    {
+      "path": "cues.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8725cc2eb63f169c00d4b9626919c27737310c3",
+      "size": 10431,
+      "url": "https://api.github.com/repos/AnctyEnly453/abstract-algebra-promo/git/blobs/c8725cc2eb63f169c00d4b9626919c27737310c3"
+    },
+    {
+      "path": "e8.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "904cdf1735bdf349d32e4e72c47e2a85b73b3a2f",
+      "size": 66168,
+      "url": "https://api.github.com/repos/AnctyEnly453/abstract-algebra-promo/git/blobs/904cdf1735bdf349d32e4e72c47e2a85b73b3a2f"
+    },
+    {
+      "path": "e8.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03f9ad23e29e0ba7752ac2d284e17d1195e6aac1",
+      "size": 1405,
+      "url": "https://api.github.com/repos/AnctyEnly453/abstract-algebra-promo/git/blobs/03f9ad23e29e0ba7752ac2d284e17d1195e6aac1"
+    },
+    {
+      "path": "export.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bbf0b12170587478b06fc2f933d59e07054700c5",
+      "size": 9699,
+      "url": "https://api.github.com/repos/AnctyEnly453/abstract-algebra-promo/git/blobs/bbf0b12170587478b06fc2f933d59e07054700c5"
+    },
+    {
+      "path": "music.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8b69f6e62b0fcea38750d8812f67d88c11a1164",
+      "size": 6305794,
+      "url": "https://api.github.com/repos/AnctyEnly453/abstract-algebra-promo/git/blobs/d8b69f6e62b0fcea38750d8812f67d88c11a1164"
+    },
+    {
+      "path": "music.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e67dcd0250299e8dd15f14085e65bf21f0f8b46f",
+      "size": 36063,
+      "url": "https://api.github.com/repos/AnctyEnly453/abstract-algebra-promo/git/blobs/e67dcd0250299e8dd15f14085e65bf21f0f8b46f"
+    },
+    {
+      "path": "promo.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8225a210cd237286f6d06e9d28cb770ddfa07c5",
+      "size": 124857,
+      "url": "https://api.github.com/repos/AnctyEnly453/abstract-algebra-promo/git/blobs/f8225a210cd237286f6d06e9d28cb770ddfa07c5"
+    },
+    {
+      "path": "promo_v1.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2431817e0a26b476fd04e1e70e1161702caaf429",
+      "size": 92895,
+      "url": "https://api.github.com/repos/AnctyEnly453/abstract-algebra-promo/git/blobs/2431817e0a26b476fd04e1e70e1161702caaf429"
+    },
+    {
+      "path": "qr.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa93ee5f3b0753d2939102fcfe0fe5795e7cdfb3",
+      "size": 2727,
+      "url": "https://api.github.com/repos/AnctyEnly453/abstract-algebra-promo/git/blobs/aa93ee5f3b0753d2939102fcfe0fe5795e7cdfb3"
+    },
+    {
+      "path": "qr.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f05229495f8a6f40be86ee617229d9570cd9ae33",
+      "size": 2397,
+      "url": "https://api.github.com/repos/AnctyEnly453/abstract-algebra-promo/git/blobs/f05229495f8a6f40be86ee617229d9570cd9ae33"
+    },
+    {
+      "path": "requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "849007de1ff8961daab747fc6a2cbb0459cb30a4",
+      "size": 32,
+      "url": "https://api.github.com/repos/AnctyEnly453/abstract-algebra-promo/git/blobs/849007de1ff8961daab747fc6a2cbb0459cb30a4"
+    },
+    {
+      "path": "封面_1920x1080.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ffb8f689b1bb1ec25389735e011fa8d1d9d3ff8",
+      "size": 347819,
+      "url": "https://api.github.com/repos/AnctyEnly453/abstract-algebra-promo/git/blobs/9ffb8f689b1bb1ec25389735e011fa8d1d9d3ff8"
+    },
+    {
+      "path": "抽象代数宣传片.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41e8cbee8d54ee9ba918abd62b3800f8d6d91feb",
+      "size": 8532632,
+      "url": "https://api.github.com/repos/AnctyEnly453/abstract-algebra-promo/git/blobs/41e8cbee8d54ee9ba918abd62b3800f8d6d91feb"
+    }
+  ],
+  "truncated": false
+}

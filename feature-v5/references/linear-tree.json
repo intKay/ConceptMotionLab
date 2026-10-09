@@ -1,0 +1,206 @@
+{
+  "sha": "1c41a7e6ac34da79fa13b90314355a47f93604c0",
+  "url": "https://api.github.com/repos/guchang233/linear-algebra-promo/git/trees/1c41a7e6ac34da79fa13b90314355a47f93604c0",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46bc68a1666956f5c188b6228d9835ba20800076",
+      "size": 30,
+      "url": "https://api.github.com/repos/guchang233/linear-algebra-promo/git/blobs/46bc68a1666956f5c188b6228d9835ba20800076"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5c84e781251bc0868b0a39458f310655461b594",
+      "size": 836,
+      "url": "https://api.github.com/repos/guchang233/linear-algebra-promo/git/blobs/f5c84e781251bc0868b0a39458f310655461b594"
+    },
+    {
+      "path": "assemble.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f92587666888a7eb772df62f3a2027ba998df15",
+      "size": 804,
+      "url": "https://api.github.com/repos/guchang233/linear-algebra-promo/git/blobs/5f92587666888a7eb772df62f3a2027ba998df15"
+    },
+    {
+      "path": "cover.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e3432f009b1f09b48f373657c8e378c8489c2dd",
+      "size": 2164,
+      "url": "https://api.github.com/repos/guchang233/linear-algebra-promo/git/blobs/8e3432f009b1f09b48f373657c8e378c8489c2dd"
+    },
+    {
+      "path": "engine.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2436f90869b915d27ac87dc986f4a0186c791652",
+      "size": 25440,
+      "url": "https://api.github.com/repos/guchang233/linear-algebra-promo/git/blobs/2436f90869b915d27ac87dc986f4a0186c791652"
+    },
+    {
+      "path": "music.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c96d87d3c6b2d7020f7e2374720934e10fff1d67",
+      "size": 12907,
+      "url": "https://api.github.com/repos/guchang233/linear-algebra-promo/git/blobs/c96d87d3c6b2d7020f7e2374720934e10fff1d67"
+    },
+    {
+      "path": "render.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6766b07ba2cec73fe168e0f0fce6425cd262573f",
+      "size": 3349,
+      "url": "https://api.github.com/repos/guchang233/linear-algebra-promo/git/blobs/6766b07ba2cec73fe168e0f0fce6425cd262573f"
+    },
+    {
+      "path": "scenes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c0bf1d8a184e4c1f2db096040b471326f19b4bc1",
+      "url": "https://api.github.com/repos/guchang233/linear-algebra-promo/git/trees/c0bf1d8a184e4c1f2db096040b471326f19b4bc1"
+    },
+    {
+      "path": "scenes/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/guchang233/linear-algebra-promo/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "scenes/common.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cd7009481ffa36a3f4178805b35afa140a687be",
+      "size": 1775,
+      "url": "https://api.github.com/repos/guchang233/linear-algebra-promo/git/blobs/3cd7009481ffa36a3f4178805b35afa140a687be"
+    },
+    {
+      "path": "scenes/landscape.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5be6fe622861b4ede2fca864c14d1e70e9ab9c19",
+      "size": 4328,
+      "url": "https://api.github.com/repos/guchang233/linear-algebra-promo/git/blobs/5be6fe622861b4ede2fca864c14d1e70e9ab9c19"
+    },
+    {
+      "path": "scenes/s00_open.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0e605db1829077537eef4ea96af7253353264fa",
+      "size": 3090,
+      "url": "https://api.github.com/repos/guchang233/linear-algebra-promo/git/blobs/e0e605db1829077537eef4ea96af7253353264fa"
+    },
+    {
+      "path": "scenes/s01_space.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28721cb3680be2d68d74a912517f222859f135af",
+      "size": 4424,
+      "url": "https://api.github.com/repos/guchang233/linear-algebra-promo/git/blobs/28721cb3680be2d68d74a912517f222859f135af"
+    },
+    {
+      "path": "scenes/s02_eigen.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "079658d42f139d0f83276d051061e8706c2bf0e6",
+      "size": 6484,
+      "url": "https://api.github.com/repos/guchang233/linear-algebra-promo/git/blobs/079658d42f139d0f83276d051061e8706c2bf0e6"
+    },
+    {
+      "path": "scenes/s03_3d.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c11d06971b41a5789c7fff0da2c0eb3d7504512c",
+      "size": 9135,
+      "url": "https://api.github.com/repos/guchang233/linear-algebra-promo/git/blobs/c11d06971b41a5789c7fff0da2c0eb3d7504512c"
+    },
+    {
+      "path": "scenes/s04_fractal.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f69f8f7a22d76651dd84e56c7a43b38be0893cc0",
+      "size": 6097,
+      "url": "https://api.github.com/repos/guchang233/linear-algebra-promo/git/blobs/f69f8f7a22d76651dd84e56c7a43b38be0893cc0"
+    },
+    {
+      "path": "scenes/s05_image.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58118e247d6ce9913ba062e4f498bf57423d79c4",
+      "size": 10787,
+      "url": "https://api.github.com/repos/guchang233/linear-algebra-promo/git/blobs/58118e247d6ce9913ba062e4f498bf57423d79c4"
+    },
+    {
+      "path": "scenes/s06_fourier.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c830585ccff764c204f6029f020ace94bf93a89d",
+      "size": 6993,
+      "url": "https://api.github.com/repos/guchang233/linear-algebra-promo/git/blobs/c830585ccff764c204f6029f020ace94bf93a89d"
+    },
+    {
+      "path": "scenes/s07_network.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3a2d2f941a77853c70c5dcc4bf5525fce69327b",
+      "size": 6771,
+      "url": "https://api.github.com/repos/guchang233/linear-algebra-promo/git/blobs/b3a2d2f941a77853c70c5dcc4bf5525fce69327b"
+    },
+    {
+      "path": "scenes/s08_ai.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7d17bfa2f60445cc681917b8a8d6f7930f5f569",
+      "size": 12166,
+      "url": "https://api.github.com/repos/guchang233/linear-algebra-promo/git/blobs/b7d17bfa2f60445cc681917b8a8d6f7930f5f569"
+    },
+    {
+      "path": "scenes/s09_finale.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35dfd72cb013214e951acd97fd1990283f82bf84",
+      "size": 5991,
+      "url": "https://api.github.com/repos/guchang233/linear-algebra-promo/git/blobs/35dfd72cb013214e951acd97fd1990283f82bf84"
+    },
+    {
+      "path": "timeline.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2fba8b2ed9a72d0810bb258dde84fc803199d899",
+      "size": 421,
+      "url": "https://api.github.com/repos/guchang233/linear-algebra-promo/git/blobs/2fba8b2ed9a72d0810bb258dde84fc803199d899"
+    },
+    {
+      "path": "线代视频.rar",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0586be892c436bede1acc03c616b106610ff736b",
+      "size": 148130,
+      "url": "https://api.github.com/repos/guchang233/linear-algebra-promo/git/blobs/0586be892c436bede1acc03c616b106610ff736b"
+    },
+    {
+      "path": "线性代数宣传片_封面.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e906e871639d8e70d4701a3485d125971bdd2bb1",
+      "size": 650198,
+      "url": "https://api.github.com/repos/guchang233/linear-algebra-promo/git/blobs/e906e871639d8e70d4701a3485d125971bdd2bb1"
+    },
+    {
+      "path": "线性代数宣传片_封面.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8719ececdab838c341e6b3e3ac9651762f2461c",
+      "size": 3630388,
+      "url": "https://api.github.com/repos/guchang233/linear-algebra-promo/git/blobs/f8719ececdab838c341e6b3e3ac9651762f2461c"
+    }
+  ],
+  "truncated": false
+}

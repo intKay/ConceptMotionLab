@@ -1,0 +1,24 @@
+{
+  "title": "随机汇聚成规律",
+  "duration": 45,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "bpm": 96,
+  "scenes": [
+    {"id":"chaos","start":0,"end":7.5,"label":"01 / 随机","caption":"一次结果，无法预言。"},
+    {"id":"trials","start":7.5,"end":17.5,"label":"02 / 重复","caption":"但我们可以重复试验。"},
+    {"id":"converge","start":17.5,"end":27.5,"label":"03 / 收敛","caption":"次数增加，比例趋于稳定。"},
+    {"id":"distribution","start":27.5,"end":37.5,"label":"04 / 分布","caption":"换一种随机变量，结果呈现新的分布。"},
+    {"id":"reveal","start":37.5,"end":45,"label":"05 / 规律","caption":"随机之中，也有可以理解的结构。"}
+  ],
+  "cues": [
+    {"t":0,"name":"impact","strength":0.7},
+    {"t":5,"name":"riser","strength":0.5},
+    {"t":7.5,"name":"impact","strength":0.9},
+    {"t":17.5,"name":"impact","strength":0.9},
+    {"t":27.5,"name":"impact","strength":0.85},
+    {"t":37.5,"name":"impact","strength":1},
+    {"t":42.5,"name":"chime","strength":0.7}
+  ]
+}

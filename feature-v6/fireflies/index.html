@@ -1,0 +1,11 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>你撞见的黑暗 · v6 样片</title><style>
+@font-face{font-family:FilmSans;src:url('../../long/fonts/NotoSansSC-VF.ttf');font-weight:100 900;font-display:block}
+@font-face{font-family:FilmSerif;src:url('../../long/fonts/NotoSerifSC-VF.ttf');font-weight:200 900;font-display:block}
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;background:#000;color:#ece8dc;font-family:FilmSans}
+#stage{display:block;width:100vw;height:100vh;object-fit:contain}
+#controls{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);width:min(860px,92vw);background:#0b0d18dd;border:1px solid #2a3150;border-radius:999px;padding:8px 18px;display:flex;align-items:center;gap:14px}
+button{font:600 14px FilmSans;background:#e4f26a;border:0;border-radius:999px;padding:6px 16px;cursor:pointer;color:#05060c}
+input{flex:1;accent-color:#8be4ff}#clock{font:13px FilmSans;min-width:110px;color:#8a8ea3}
+</style></head><body><canvas id="stage" width="1920" height="1080"></canvas>
+<div id="controls"><button id="toggle">播放</button><input id="seek" type="range" min="0" max="24" step="0.01" value="0"><span id="clock">0.00 / 24.00 s</span><audio id="audio" preload="auto" src="out/score.wav"></audio></div>
+<script type="module" src="film.js"></script></body></html>
