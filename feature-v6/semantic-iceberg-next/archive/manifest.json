@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-12",
+  "sourcePRs": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "files": [
+    {
+      "path": "envelope/main.js",
+      "sha256": "603b842864a3e444559f58adebf9cc4826bfca154e298b5f41f7425d65c3d5d1"
+    },
+    {
+      "path": "envelope/world.js",
+      "sha256": "446c22370bd56ee0ef468f898088fd70b649ac7048bd238a8bc6565086fe602a"
+    },
+    {
+      "path": "envelope/index.html",
+      "sha256": "4106de62f181fecbb31750bd28e5e472cc51f967a168bc67001c6ae4caa5be74"
+    },
+    {
+      "path": "envelope/style.css",
+      "sha256": "b394e78d22fa7607f5e3d878e4b1fe2dd1d6181ebee8029b7cde828dd14fcd32"
+    },
+    {
+      "path": "narrative/main.js",
+      "sha256": "7e75dce86851c2f1facad16db3cf8bcd4bb3fd591396c49a316debf380be56b9"
+    },
+    {
+      "path": "narrative/world.js",
+      "sha256": "fd06e3ba19116bd6bc4dc251d2ef26b5f1bfcf9b26feb82dd034448485180489"
+    },
+    {
+      "path": "narrative/index.html",
+      "sha256": "9804bd3e7af463cadbaab45d3ebb836b7a8969d2e5dc31afd3370915f30831d7"
+    },
+    {
+      "path": "narrative/style.css",
+      "sha256": "b394e78d22fa7607f5e3d878e4b1fe2dd1d6181ebee8029b7cde828dd14fcd32"
+    },
+    {
+      "path": "surge/main.js",
+      "sha256": "35c0c55985b7016ecad390c7f4484f561f12e39119632635cd931509f651e0f1"
+    },
+    {
+      "path": "surge/world.js",
+      "sha256": "fd06e3ba19116bd6bc4dc251d2ef26b5f1bfcf9b26feb82dd034448485180489"
+    },
+    {
+      "path": "surge/index.html",
+      "sha256": "3890597239c4ee778e7c00f7be8a495ef88a7bb758a1f73298b88760c1cf11bf"
+    },
+    {
+      "path": "surge/style.css",
+      "sha256": "b394e78d22fa7607f5e3d878e4b1fe2dd1d6181ebee8029b7cde828dd14fcd32"
+    },
+    {
+      "path": "immersion/main.js",
+      "sha256": "d68d165d25bce8364f7bde177848ffea69fc84d11ede74c0c7ef36791bae2553"
+    },
+    {
+      "path": "immersion/world.js",
+      "sha256": "fd06e3ba19116bd6bc4dc251d2ef26b5f1bfcf9b26feb82dd034448485180489"
+    },
+    {
+      "path": "immersion/index.html",
+      "sha256": "05ed5e12695b75936fee8b706aa587bc297a70264ae21125d6e7f671500ce104"
+    },
+    {
+      "path": "immersion/style.css",
+      "sha256": "fde40986b75a3e7c437c4756f2f0e5847a1012f2d1522b8877fc29b3b2102d16"
+    }
+  ]
+}
