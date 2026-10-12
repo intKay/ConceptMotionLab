@@ -1,0 +1,10 @@
+{
+  "baseline": "baseline",
+  "versions": [
+    {
+      "id": "envelope",
+      "title": "四面文字包围",
+      "idea": "左右文字墙延伸至头顶与脚下；同一文本空间连续阅读。"
+    }
+  ]
+}
