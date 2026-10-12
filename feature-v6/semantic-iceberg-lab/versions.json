@@ -1,0 +1,10 @@
+{
+  "baseline": "baseline",
+  "versions": [
+    {
+      "id": "immersion",
+      "title": "音乐主导的沉浸呈现",
+      "idea": "默认自动下潜并收起界面；少量可恢复控件，不要求操作移动。"
+    }
+  ]
+}
